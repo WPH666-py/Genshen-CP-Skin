@@ -1,0 +1,71 @@
+/**
+ * 原神CP3 · 米提亚×奥黛塔×沃雅妮莎 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: #色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp3 deepking --check
+ *
+ * 主色取自群像插画: 米提亚的青绿长发 #2f9e8f、礼服的钴蓝 #2f6bb8、
+ * 浅灰底 #eaeaea, 以及画面里的薰衣草紫。
+ */
+
+:root {
+  /* 亮色 · 净白浅灰(取自插画的浅灰底与白色礼服) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #ffffff;
+  --bg-layer-1: #ffffff;
+  --bg-layer-2: #eaf5f3;
+  --bg-layer-3: #d7ebe7;
+
+  /* 文字: 主、次、弱 */
+  --label-primary: #122b28;
+  --label-secondary: #3d6360;
+  --label-tertiary: #6f918d;
+
+  /* 品牌强调色: 米提亚的青绿 */
+  --brand-primary: #2f9e8f;
+  --accent: #2f9e8f;
+  --primary: #2f9e8f;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #dcefec;
+  --interactive-bg-active: #c3e3de;
+
+  /* 边框 */
+  --border-l1: #d3e9e5;
+  --border-l2: #beddd8;
+  --border: #beddd8;
+
+  /* 状态色 */
+  --system-warn-bg: #fff8e6;
+  --system-warn-text: #8a6a00;
+}
+
+/* 夜景配色(取自插画的深青蓝与薰衣草紫): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #0f1f26;
+  --duskcolor-bglayer2: #16292f;
+  --duskcolor-bglayer3: #1f373f;
+
+  --duskcolor-labelprimary: #e0eef0;
+  --duskcolor-labelsecondary: #a0c0c4;
+  --duskcolor-labeltertiary: #749499;
+
+  /* 夜间强调色: 青绿提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #4fc0b0;
+
+  --duskcolor-hoversolid: #1f373f;
+  --duskcolor-activebg: #2a4650;
+
+  --duskcolor-borderl1: #223940;
+  --duskcolor-borderl2: #2c4a52;
+
+  --duskcolor-warnbg: #38301a;
+  --duskcolor-warntext: #e6d7a2;
+}

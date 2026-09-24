@@ -1,0 +1,21 @@
+{
+  "name": "原神CP24 · 甘雨×绫华",
+  "nameEn": "Genshen CP24 . Ganyu x Ayaka",
+  "accent": "#b62230",
+  "tagline": "绯红与霜蓝：红伞 × 绯色和服 × 樱粉雪景",
+  "description": "原神 CP 壁纸套件24 的 DeepKing 界面皮肤。主色取自插画采样: 红伞与绯色和服的深红, 搭配甘雨的霜蓝发与樱粉、雪景的冷白; 亮色为雪白晨光, 夜景为深绯夜色。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP24",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "甘雨",
+    "绫华",
+    "壁纸"
+  ]
+}

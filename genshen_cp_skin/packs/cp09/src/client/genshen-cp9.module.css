@@ -1,0 +1,70 @@
+/**
+ * 原神CP9 · 神里绫华×宵宫 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp9 deepking --check
+ *
+ * 主色取自插画采样: 宵宫的橙金与绫华的青蓝墨色, 搭配樱粉与紫藤淡紫。
+ */
+
+:root {
+  /* 亮色 · 樱纸暖白(取自樱花瓣铺满的画面) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdf8fa;
+  --bg-layer-1: #fdf8fa;
+  --bg-layer-2: #f3eef8;
+  --bg-layer-3: #e5dcef;
+
+  /* 文字: 主、次、弱 —— 深藤墨 */
+  --label-primary: #2a2138;
+  --label-secondary: #574a68;
+  --label-tertiary: #877996;
+
+  /* 品牌强调色: 宵宫的橙金 */
+  --brand-primary: #e8734a;
+  --accent: #e8734a;
+  --primary: #e8734a;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f7e6ea;
+  --interactive-bg-active: #eed2da;
+
+  /* 边框 */
+  --border-l1: #ebdee8;
+  --border-l2: #dbc8da;
+  --border: #dbc8da;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自插画的深藤紫与夜樱): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #1a1626;
+  --duskcolor-bglayer2: #251f36;
+  --duskcolor-bglayer3: #322a47;
+
+  --duskcolor-labelprimary: #ece8f4;
+  --duskcolor-labelsecondary: #bab0cd;
+  --duskcolor-labeltertiary: #8b81a1;
+
+  /* 夜间强调色: 橙金提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #f58b5e;
+
+  --duskcolor-hoversolid: #322a47;
+  --duskcolor-activebg: #423858;
+
+  --duskcolor-borderl1: #352d4a;
+  --duskcolor-borderl2: #463b5e;
+
+  --duskcolor-warnbg: #3a2f14;
+  --duskcolor-warntext: #ecd39a;
+}

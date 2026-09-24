@@ -1,0 +1,70 @@
+/**
+ * 原神CP20 · 散兵×荧 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp20 deepking --check
+ *
+ * 主色取自插画采样: 散兵的深靛紫与荧的暖金, 搭配水畔的深墨蓝与灯火橙。
+ */
+
+:root {
+  /* 亮色 · 月白宣纸(取自插画的浅色留白与花瓣) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fbfafc;
+  --bg-layer-1: #fbfafc;
+  --bg-layer-2: #eeedf3;
+  --bg-layer-3: #dcdbe8;
+
+  /* 文字: 主、次、弱 —— 深靛墨 */
+  --label-primary: #1e1c31;
+  --label-secondary: #474567;
+  --label-tertiary: #787698;
+
+  /* 品牌强调色: 散兵的深靛紫 */
+  --brand-primary: #3f3c63;
+  --accent: #3f3c63;
+  --primary: #3f3c63;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #e4e3ef;
+  --interactive-bg-active: #cfcee4;
+
+  /* 边框 */
+  --border-l1: #e1e0ec;
+  --border-l2: #c8c6dd;
+  --border: #c8c6dd;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自水畔那张的深墨蓝): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #12132a;
+  --duskcolor-bglayer2: #1b1d3a;
+  --duskcolor-bglayer3: #272a50;
+
+  --duskcolor-labelprimary: #e8e8f4;
+  --duskcolor-labelsecondary: #b2b3cf;
+  --duskcolor-labeltertiary: #8082a2;
+
+  /* 夜间强调色: 深靛提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #6f6aa8;
+
+  --duskcolor-hoversolid: #272a50;
+  --duskcolor-activebg: #373a68;
+
+  --duskcolor-borderl1: #292c4d;
+  --duskcolor-borderl2: #3c3f66;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

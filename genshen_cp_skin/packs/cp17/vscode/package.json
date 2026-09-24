@@ -1,0 +1,100 @@
+{
+  "name": "genshen-skin-cp17",
+  "displayName": "原神CP17 — 奥黛塔×沃雅妮莎×米提亚×阿罗夏",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP17.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp17.openGallery",
+        "title": "原神CP17: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp17.setShowall",
+        "title": "原神CP17: 完整(默认, 四格全见)"
+      },
+      {
+        "command": "genshencp17.setCard",
+        "title": "原神CP17: 卡片式"
+      },
+      {
+        "command": "genshencp17.setCover",
+        "title": "原神CP17: 满屏(竖图会裁掉大半)"
+      },
+      {
+        "command": "genshencp17.setRandom",
+        "title": "原神CP17: 随机换一种"
+      },
+      {
+        "command": "genshencp17.openSwitcher",
+        "title": "原神CP17: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp17.startPet",
+        "title": "原神CP17: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp17.generateAll",
+        "title": "原神CP17: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp17.showInfo",
+        "title": "原神CP17: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp17",
+          "title": "原神CP17",
+          "icon": "media/genshencp17.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp17": [
+        {
+          "id": "genshencp17.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp17.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp17.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp17 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

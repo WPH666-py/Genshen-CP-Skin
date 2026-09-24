@@ -1,0 +1,112 @@
+{
+  "name": "genshen-skin-cp7",
+  "displayName": "原神CP7 — 娜维娅×克洛琳德",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP7.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp7.openGallery",
+        "title": "原神CP7: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp7.set1",
+        "title": "原神CP7: 第1张 · 花园"
+      },
+      {
+        "command": "genshencp7.set2",
+        "title": "原神CP7: 第2张 · 海滩"
+      },
+      {
+        "command": "genshencp7.set3",
+        "title": "原神CP7: 第3张 · 下午茶"
+      },
+      {
+        "command": "genshencp7.setCard",
+        "title": "原神CP7: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp7.setCover",
+        "title": "原神CP7: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp7.setShowall",
+        "title": "原神CP7: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp7.setRandom",
+        "title": "原神CP7: 随机换一张"
+      },
+      {
+        "command": "genshencp7.openSwitcher",
+        "title": "原神CP7: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp7.startPet",
+        "title": "原神CP7: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp7.generateAll",
+        "title": "原神CP7: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp7.showInfo",
+        "title": "原神CP7: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp7",
+          "title": "原神CP7",
+          "icon": "media/genshencp7.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp7": [
+        {
+          "id": "genshencp7.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp7.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp7.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp7 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

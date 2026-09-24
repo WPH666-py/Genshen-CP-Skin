@@ -1,0 +1,70 @@
+/**
+ * 原神CP13 · 钟离×凝光 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp13 deepking --check
+ *
+ * 主色取自插画采样: 钟离的琥珀褐与凝光的璃月金, 搭配秋枫橙与远山灰蓝。
+ */
+
+:root {
+  /* 亮色 · 暖宣纸金(取自茶席与秋叶的高光) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdf9f0;
+  --bg-layer-1: #fdf9f0;
+  --bg-layer-2: #f6ecdd;
+  --bg-layer-3: #ead9c2;
+
+  /* 文字: 主、次、弱 —— 深褐墨 */
+  --label-primary: #2b1f16;
+  --label-secondary: #5c4632;
+  --label-tertiary: #8d7458;
+
+  /* 品牌强调色: 凝光的璃月金 */
+  --brand-primary: #c9a43f;
+  --accent: #c9a43f;
+  --primary: #c9a43f;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f4e6cf;
+  --interactive-bg-active: #e8d2ad;
+
+  /* 边框 */
+  --border-l1: #ece0cc;
+  --border-l2: #d8c3a2;
+  --border: #d8c3a2;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自插画的深褐与暮色): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #1c1510;
+  --duskcolor-bglayer2: #281e16;
+  --duskcolor-bglayer3: #382a1e;
+
+  --duskcolor-labelprimary: #f2e9dd;
+  --duskcolor-labelsecondary: #c9b49c;
+  --duskcolor-labeltertiary: #9a8064;
+
+  /* 夜间强调色: 璃月金提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #e0bd5a;
+
+  --duskcolor-hoversolid: #382a1e;
+  --duskcolor-activebg: #4a3828;
+
+  --duskcolor-borderl1: #3a2c1f;
+  --duskcolor-borderl2: #4f3d2b;
+
+  --duskcolor-warnbg: #3a2f14;
+  --duskcolor-warntext: #ecd39a;
+}

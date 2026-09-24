@@ -1,0 +1,112 @@
+{
+  "name": "genshen-skin-cp5",
+  "displayName": "原神CP5 — 桑多涅×哥伦比娅",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP5.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp5.openGallery",
+        "title": "原神CP5: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp5.set1",
+        "title": "原神CP5: 第1张 · 纸牌"
+      },
+      {
+        "command": "genshencp5.set2",
+        "title": "原神CP5: 第2张 · 甜点"
+      },
+      {
+        "command": "genshencp5.set3",
+        "title": "原神CP5: 第3张 · 相依"
+      },
+      {
+        "command": "genshencp5.setCard",
+        "title": "原神CP5: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp5.setCover",
+        "title": "原神CP5: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp5.setShowall",
+        "title": "原神CP5: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp5.setRandom",
+        "title": "原神CP5: 随机换一张"
+      },
+      {
+        "command": "genshencp5.openSwitcher",
+        "title": "原神CP5: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp5.startPet",
+        "title": "原神CP5: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp5.generateAll",
+        "title": "原神CP5: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp5.showInfo",
+        "title": "原神CP5: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp5",
+          "title": "原神CP5",
+          "icon": "media/genshencp5.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp5": [
+        {
+          "id": "genshencp5.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp5.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp5.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp5 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

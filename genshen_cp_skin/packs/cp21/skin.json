@@ -1,0 +1,21 @@
+{
+  "name": "原神CP21 · 魈×荧",
+  "nameEn": "Genshen CP21 . Xiao x Lumine",
+  "accent": "#3f7d78",
+  "tagline": "秋叶与墨绿：魈的青绿 × 荧的暖金 × 秋叶橙",
+  "description": "原神 CP 壁纸套件21 的 DeepKing 界面皮肤。主色取自插画采样: 魈的青绿发色与荧的暖金, 搭配秋叶橙与米白底; 亮色为暖米白, 夜景为墨绿夜色。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP21",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "魈",
+    "荧",
+    "壁纸"
+  ]
+}

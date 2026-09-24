@@ -1,0 +1,19 @@
+{
+  "name": "原神CP15 · 甘雨×刻晴",
+  "nameEn": "Genshen CP15 . Ganyu x Keqing",
+  "accent": "#8fbde0",
+  "tagline": "冰与雷的双子：冰蓝 × 夜紫 × 樱粉",
+  "description": "原神 CP 壁纸套件15 的 DeepKing 界面皮肤。主色取自插画采样: 甘雨的冰蓝发色与刻晴的夜紫, 搭配樱粉与灯宵的暖光; 亮色为霜白晨光, 夜景为深紫夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP15",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "甘雨",
+    "刻晴",
+    "壁纸"
+  ]
+}

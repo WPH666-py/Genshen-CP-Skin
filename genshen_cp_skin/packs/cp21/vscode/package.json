@@ -1,0 +1,112 @@
+{
+  "name": "genshen-skin-cp21",
+  "displayName": "原神CP21 — 魈×荧",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP21.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp21.openGallery",
+        "title": "原神CP21: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp21.set1",
+        "title": "原神CP21: 第1张 · 秋叶"
+      },
+      {
+        "command": "genshencp21.set2",
+        "title": "原神CP21: 第2张 · 拥抱"
+      },
+      {
+        "command": "genshencp21.set3",
+        "title": "原神CP21: 第3张 · 脸红"
+      },
+      {
+        "command": "genshencp21.setCard",
+        "title": "原神CP21: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp21.setCover",
+        "title": "原神CP21: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp21.setShowall",
+        "title": "原神CP21: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp21.setRandom",
+        "title": "原神CP21: 随机换一张"
+      },
+      {
+        "command": "genshencp21.openSwitcher",
+        "title": "原神CP21: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp21.startPet",
+        "title": "原神CP21: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp21.generateAll",
+        "title": "原神CP21: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp21.showInfo",
+        "title": "原神CP21: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp21",
+          "title": "原神CP21",
+          "icon": "media/genshencp21.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp21": [
+        {
+          "id": "genshencp21.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp21.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留魈自动查找 python / python3。"
+        },
+        "genshencp21.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp21 或 tools/wallpaper.py)。留魈自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

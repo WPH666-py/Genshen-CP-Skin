@@ -1,0 +1,11 @@
+{
+  "name": "原神CP3 · 米提亚×奥黛塔×沃雅妮莎",
+  "nameEn": "Genshin CP3 · Mitiya x Odette x Voyanisa",
+  "accent": "#2f9e8f",
+  "tagline": "群像同人主题：青绿长发 × 钴蓝礼服 × 浅灰底",
+  "description": "原神 CP 壁纸套件3 的 DeepKing 界面皮肤。主色取自群像插画里米提亚的青绿长发与钴蓝礼服，搭配浅灰底与薰衣草紫；亮色为净白浅灰，夜景为深青蓝。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP3",
+  "keywords": ["原神", "genshin", "skin", "deepking", "米提亚", "奥黛塔", "沃雅妮莎", "壁纸"]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "genshen-skin-cp13",
+  "displayName": "原神CP13 — 钟离×凝光",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP13.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp13.openGallery",
+        "title": "原神CP13: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp13.setCard",
+        "title": "原神CP13: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp13.setCover",
+        "title": "原神CP13: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp13.setShowall",
+        "title": "原神CP13: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp13.setRandom",
+        "title": "原神CP13: 随机换一种"
+      },
+      {
+        "command": "genshencp13.openSwitcher",
+        "title": "原神CP13: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp13.startPet",
+        "title": "原神CP13: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp13.generateAll",
+        "title": "原神CP13: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp13.showInfo",
+        "title": "原神CP13: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp13",
+          "title": "原神CP13",
+          "icon": "media/genshencp13.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp13": [
+        {
+          "id": "genshencp13.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp13.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp13.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp13 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

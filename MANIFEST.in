@@ -1,0 +1,11 @@
+include README.md
+include AGENTS.md
+include LICENSE
+include pyproject.toml
+include .gitignore
+# 包内自带素材：24 套的源图与引擎代码。目录层级最深 5 层，整体递归包含。
+recursive-include genshen_cp_skin/packs *
+recursive-include genshen_cp_skin *.json
+recursive-include tools *.py
+recursive-include tests *.py
+global-exclude *.py[cod] __pycache__/* *.egg-info/* *.vsix

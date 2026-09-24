@@ -1,0 +1,70 @@
+/**
+ * 原神CP17 · 奥黛塔×沃雅妮莎×米提亚×阿罗夏 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp17 deepking --check
+ *
+ * 主色取自插画采样: 四人校服合影的雾蓝与薰衣草紫, 搭配霜白与淡樱粉。
+ */
+
+:root {
+  /* 亮色 · 霜白晨光(取自四宫格的浅色背景) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fbfbfd;
+  --bg-layer-1: #fbfbfd;
+  --bg-layer-2: #eceef5;
+  --bg-layer-3: #dbe0ee;
+
+  /* 文字: 主、次、弱 —— 深靛墨 */
+  --label-primary: #1e2338;
+  --label-secondary: #485072;
+  --label-tertiary: #7b83a3;
+
+  /* 品牌强调色: 校服的雾蓝 */
+  --brand-primary: #6b79ad;
+  --accent: #6b79ad;
+  --primary: #6b79ad;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #e2e6f2;
+  --interactive-bg-active: #ccd4e8;
+
+  /* 边框 */
+  --border-l1: #dfe3f0;
+  --border-l2: #c6cde2;
+  --border: #c6cde2;
+
+  /* 状态色 */
+  --system-warn-bg: #fff6dd;
+  --system-warn-text: #8a6200;
+}
+
+/* 夜景配色(取自深靛蓝发色): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #171a2a;
+  --duskcolor-bglayer2: #20253a;
+  --duskcolor-bglayer3: #2c3350;
+
+  --duskcolor-labelprimary: #e8ebf5;
+  --duskcolor-labelsecondary: #b3bad2;
+  --duskcolor-labeltertiary: #828aa8;
+
+  /* 夜间强调色: 雾蓝提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #8f9dd0;
+
+  --duskcolor-hoversolid: #2c3350;
+  --duskcolor-activebg: #3b4468;
+
+  --duskcolor-borderl1: #2b324c;
+  --duskcolor-borderl2: #3e4767;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

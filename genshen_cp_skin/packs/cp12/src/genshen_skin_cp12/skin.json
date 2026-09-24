@@ -1,0 +1,19 @@
+{
+  "name": "原神CP12 · 行秋×重云",
+  "nameEn": "Genshen CP12 . Xingqiu x Chongyun",
+  "accent": "#2f6bab",
+  "tagline": "冰与水的双色：行秋靛蓝 × 重云霜白 × 月华金",
+  "description": "原神 CP 壁纸套件12 的 DeepKing 界面皮肤。主色取自插画采样: 行秋的靛蓝与重云的霜白冰蓝, 搭配满月的暖月华与嫩芽黄; 亮色为霜白晨光, 夜景为深靛夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP12",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "行秋",
+    "重云",
+    "壁纸"
+  ]
+}

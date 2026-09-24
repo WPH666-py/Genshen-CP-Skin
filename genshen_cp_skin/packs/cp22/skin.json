@@ -1,0 +1,21 @@
+{
+  "name": "原神CP22 · 荧×达达利亚",
+  "nameEn": "Genshen CP22 . Lumine x Tartaglia",
+  "accent": "#5c78b0",
+  "tagline": "蓝玫瑰的誓约：矢车菊蓝 × 婚纱米白 × 紫藤",
+  "description": "原神 CP 壁纸套件22 的 DeepKing 界面皮肤。主色取自插画采样: 蓝玫瑰的矢车菊蓝, 搭配婚纱与头纱的米白、紫藤的淡紫; 亮色为婚纱米白, 夜景为深紫夜色。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP22",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "荧",
+    "达达利亚",
+    "壁纸"
+  ]
+}

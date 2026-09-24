@@ -1,0 +1,19 @@
+{
+  "name": "原神CP16 · 温迪×芭芭拉",
+  "nameEn": "Genshen CP16 . Venti x Barbara",
+  "accent": "#c9a227",
+  "tagline": "镜头前的双子：暖金 × 天青 × 薄荷绿",
+  "description": "原神 CP 壁纸套件16 的 DeepKing 界面皮肤。主色取自插画采样: 芭芭拉的暖金发色与温迪的薄荷绿, 搭配晴空的天青与深蓝; 亮色为晴空米白, 夜景为深蓝夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP16",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "温迪",
+    "芭芭拉",
+    "壁纸"
+  ]
+}

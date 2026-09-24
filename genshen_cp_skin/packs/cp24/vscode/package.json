@@ -1,0 +1,100 @@
+{
+  "name": "genshen-skin-cp24",
+  "displayName": "原神CP24 — 甘雨×绫华",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP24.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp24.openGallery",
+        "title": "原神CP24: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp24.setCard",
+        "title": "原神CP24: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp24.setCover",
+        "title": "原神CP24: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp24.setShowall",
+        "title": "原神CP24: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp24.setRandom",
+        "title": "原神CP24: 随机换一种"
+      },
+      {
+        "command": "genshencp24.openSwitcher",
+        "title": "原神CP24: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp24.startPet",
+        "title": "原神CP24: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp24.generateAll",
+        "title": "原神CP24: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp24.showInfo",
+        "title": "原神CP24: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp24",
+          "title": "原神CP24",
+          "icon": "media/genshencp24.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp24": [
+        {
+          "id": "genshencp24.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp24.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留绫华自动查找 python / python3。"
+        },
+        "genshencp24.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp24 或 tools/wallpaper.py)。留绫华自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

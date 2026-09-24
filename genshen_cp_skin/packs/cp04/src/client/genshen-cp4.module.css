@@ -1,0 +1,70 @@
+/**
+ * 原神CP4 · 柯莱×安柏 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp4 deepking --check
+ *
+ * 主色取自插画: 柯莱的草绿发色、安柏的琥珀棕红, 以及林间暖阳黄与深绿树影。
+ */
+
+:root {
+  /* 亮色 · 晨光米白(取自林间透下的日光) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fffdf6;
+  --bg-layer-1: #fffdf6;
+  --bg-layer-2: #eef4e6;
+  --bg-layer-3: #dde9d0;
+
+  /* 文字: 主、次、弱 —— 深林墨绿 */
+  --label-primary: #1d2b16;
+  --label-secondary: #4a5c3c;
+  --label-tertiary: #7b8c6b;
+
+  /* 品牌强调色: 柯莱的草绿 */
+  --brand-primary: #4f9e4a;
+  --accent: #4f9e4a;
+  --primary: #4f9e4a;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #e2eed8;
+  --interactive-bg-active: #cbe0bb;
+
+  /* 边框 */
+  --border-l1: #dbe8cd;
+  --border-l2: #c7dab4;
+  --border: #c7dab4;
+
+  /* 状态色 */
+  --system-warn-bg: #fff6dd;
+  --system-warn-text: #8a6200;
+}
+
+/* 夜景配色(取自插画的深绿树影与琥珀): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #141c10;
+  --duskcolor-bglayer2: #1d2816;
+  --duskcolor-bglayer3: #28371e;
+
+  --duskcolor-labelprimary: #e6efdb;
+  --duskcolor-labelsecondary: #b0c39c;
+  --duskcolor-labeltertiary: #83966f;
+
+  /* 夜间强调色: 草绿提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #78c46c;
+
+  --duskcolor-hoversolid: #28371e;
+  --duskcolor-activebg: #354828;
+
+  --duskcolor-borderl1: #2a3a20;
+  --duskcolor-borderl2: #3a4d2c;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #e8d9a0;
+}

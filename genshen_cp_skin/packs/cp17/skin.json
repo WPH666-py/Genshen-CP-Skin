@@ -1,0 +1,21 @@
+{
+  "name": "原神CP17 · 奥黛塔×沃雅妮莎×米提亚×阿罗夏",
+  "nameEn": "Genshen CP17 . Odette x Voyanisa x Mitiya x Arosha",
+  "accent": "#6b79ad",
+  "tagline": "四格合影：雾蓝 × 薰衣草紫 × 霜白",
+  "description": "原神 CP 壁纸套件17 的 DeepKing 界面皮肤。主色取自插画采样: 四人校服合影的雾蓝与薰衣草紫, 搭配背景的霜白与淡樱粉; 亮色为霜白晨光, 夜景为深靛蓝夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP17",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "奥黛塔",
+    "沃雅妮莎",
+    "米提亚",
+    "阿罗夏",
+    "壁纸"
+  ]
+}

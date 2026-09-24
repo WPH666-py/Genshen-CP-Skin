@@ -1,0 +1,71 @@
+/**
+ * 原神CP1 · 米提亚×沃雅妮莎 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: #色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshin-cp1 deepking --check
+ *
+ * 本文件刻意不写任何说明性注释 —— 转换器不剥离注释, 注释里的花括号、
+ * 十六进制色值或「--名」形式的字样都会被它当成真实声明。
+ */
+
+:root {
+  /* 亮色 · 日景(取自「比心」插画的青蓝与波点白) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #ffffff;
+  --bg-layer-1: #ffffff;
+  --bg-layer-2: #eaf4fc;
+  --bg-layer-3: #d9eaf8;
+
+  /* 文字: 主、次、弱 */
+  --label-primary: #16243a;
+  --label-secondary: #44607d;
+  --label-tertiary: #7590a8;
+
+  /* 品牌强调色: 比心插画的青蓝 */
+  --brand-primary: #3f8fd8;
+  --accent: #3f8fd8;
+  --primary: #3f8fd8;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #dcebf9;
+  --interactive-bg-active: #c3ddf3;
+
+  /* 边框 */
+  --border-l1: #d5e6f4;
+  --border-l2: #c2dbf0;
+  --border: #c2dbf0;
+
+  /* 状态色 */
+  --system-warn-bg: #fff8e6;
+  --system-warn-text: #8a6a00;
+}
+
+/* 夜景配色(取自「共舞」插画): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #121c2b;
+  --duskcolor-bglayer2: #182740;
+  --duskcolor-bglayer3: #22344f;
+
+  --duskcolor-labelprimary: #e4eefb;
+  --duskcolor-labelsecondary: #a8c0da;
+  --duskcolor-labeltertiary: #7b93ad;
+
+  /* 夜间强调色: 比日景提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #63a6e6;
+
+  --duskcolor-hoversolid: #22344f;
+  --duskcolor-activebg: #2d4463;
+
+  --duskcolor-borderl1: #24374f;
+  --duskcolor-borderl2: #2f4661;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #e8d9a0;
+}

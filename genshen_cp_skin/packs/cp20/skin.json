@@ -1,0 +1,21 @@
+{
+  "name": "原神CP20 · 散兵×荧",
+  "nameEn": "Genshen CP20 . Scaramouche x Lumine",
+  "accent": "#3f3c63",
+  "tagline": "深靛与暖金：散兵的靛紫 × 荧的金发 × 水畔灯火",
+  "description": "原神 CP 壁纸套件20 的 DeepKing 界面皮肤。主色取自插画采样: 散兵的深靛紫发与荧的暖金, 搭配水畔的深墨蓝与灯火橙; 亮色为月白宣纸, 夜景为深靛夜色。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP20",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "散兵",
+    "荧",
+    "壁纸"
+  ]
+}

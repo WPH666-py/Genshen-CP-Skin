@@ -1,0 +1,21 @@
+{
+  "name": "原神CP23 · 荧×诺艾尔",
+  "nameEn": "Genshen CP23 . Lumine x Noelle",
+  "accent": "#b03a35",
+  "tagline": "西风骑士的拥抱：玫瑰红 × 暖金 × 奶白",
+  "description": "原神 CP 壁纸套件23 的 DeepKing 界面皮肤。主色取自插画采样: 诺艾尔缎带与玫瑰的深玫红, 搭配荧的金发与奶白女仆装、背景的暖光与柔粉; 亮色为奶白晨光, 夜景为深玫夜色。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP23",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "荧",
+    "诺艾尔",
+    "壁纸"
+  ]
+}

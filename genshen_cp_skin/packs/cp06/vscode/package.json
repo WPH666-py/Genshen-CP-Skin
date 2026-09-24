@@ -1,0 +1,108 @@
+{
+  "name": "genshen-skin-cp6",
+  "displayName": "原神CP6 — 玛拉妮×基尼奇×卡其娜",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP6.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp6.openGallery",
+        "title": "原神CP6: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp6.set1",
+        "title": "原神CP6: 第1张 · 午后"
+      },
+      {
+        "command": "genshencp6.set2",
+        "title": "原神CP6: 第2张 · 三人"
+      },
+      {
+        "command": "genshencp6.setCard",
+        "title": "原神CP6: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp6.setCover",
+        "title": "原神CP6: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp6.setShowall",
+        "title": "原神CP6: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp6.setRandom",
+        "title": "原神CP6: 随机换一张"
+      },
+      {
+        "command": "genshencp6.openSwitcher",
+        "title": "原神CP6: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp6.startPet",
+        "title": "原神CP6: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp6.generateAll",
+        "title": "原神CP6: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp6.showInfo",
+        "title": "原神CP6: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp6",
+          "title": "原神CP6",
+          "icon": "media/genshencp6.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp6": [
+        {
+          "id": "genshencp6.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp6.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp6.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp6 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

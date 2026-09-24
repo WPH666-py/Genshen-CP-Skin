@@ -1,0 +1,70 @@
+/**
+ * 原神CP11 · 胡桃×香菱 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp11 deepking --check
+ *
+ * 主色取自插画采样: 胡桃的赤红与香菱的暖橙, 搭配夜市灯笼的栗棕与深绯。
+ */
+
+:root {
+  /* 亮色 · 暖宣纸白(取自第一张的明亮背景) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fffaf5;
+  --bg-layer-1: #fffaf5;
+  --bg-layer-2: #f9ece1;
+  --bg-layer-3: #f0d9c7;
+
+  /* 文字: 主、次、弱 —— 深栗褐 */
+  --label-primary: #2b1a16;
+  --label-secondary: #5e4038;
+  --label-tertiary: #8d6f64;
+
+  /* 品牌强调色: 胡桃的赤红 */
+  --brand-primary: #b8352f;
+  --accent: #b8352f;
+  --primary: #b8352f;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f7e0d4;
+  --interactive-bg-active: #eec8b4;
+
+  /* 边框 */
+  --border-l1: #f0dccd;
+  --border-l2: #dfc2ad;
+  --border: #dfc2ad;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自灯笼夜市的深绯与栗棕): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #1e1512;
+  --duskcolor-bglayer2: #2a1e19;
+  --duskcolor-bglayer3: #3a2921;
+
+  --duskcolor-labelprimary: #f2e8e0;
+  --duskcolor-labelsecondary: #c9b0a2;
+  --duskcolor-labeltertiary: #9a7f72;
+
+  /* 夜间强调色: 赤红提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #e05a4a;
+
+  --duskcolor-hoversolid: #3a2921;
+  --duskcolor-activebg: #4d372c;
+
+  --duskcolor-borderl1: #3c2b23;
+  --duskcolor-borderl2: #523a2e;
+
+  --duskcolor-warnbg: #3a2f14;
+  --duskcolor-warntext: #ecd39a;
+}

@@ -1,0 +1,70 @@
+/**
+ * 原神CP12 · 行秋×重云 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp12 deepking --check
+ *
+ * 主色取自插画采样: 行秋的靛蓝与重云的霜白冰蓝, 搭配满月的暖月华。
+ */
+
+:root {
+  /* 亮色 · 霜白晨光(取自第二张的冰蓝薄雾) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #f8fbfe;
+  --bg-layer-1: #f8fbfe;
+  --bg-layer-2: #e9f2fa;
+  --bg-layer-3: #d5e6f5;
+
+  /* 文字: 主、次、弱 —— 深靛墨 */
+  --label-primary: #16233a;
+  --label-secondary: #3f5474;
+  --label-tertiary: #748aa8;
+
+  /* 品牌强调色: 行秋的靛蓝 */
+  --brand-primary: #2f6bab;
+  --accent: #2f6bab;
+  --primary: #2f6bab;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #dcebf7;
+  --interactive-bg-active: #c3dcef;
+
+  /* 边框 */
+  --border-l1: #d6e6f3;
+  --border-l2: #bcd4e8;
+  --border: #bcd4e8;
+
+  /* 状态色 */
+  --system-warn-bg: #fff6dd;
+  --system-warn-text: #8a6200;
+}
+
+/* 夜景配色(取自第一张的月夜): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #131a2b;
+  --duskcolor-bglayer2: #1c2540;
+  --duskcolor-bglayer3: #263352;
+
+  --duskcolor-labelprimary: #e6ecf7;
+  --duskcolor-labelsecondary: #aec0d8;
+  --duskcolor-labeltertiary: #7b8ea8;
+
+  /* 夜间强调色: 靛蓝提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #5b9ad8;
+
+  --duskcolor-hoversolid: #263352;
+  --duskcolor-activebg: #33446a;
+
+  --duskcolor-borderl1: #27344f;
+  --duskcolor-borderl2: #36486b;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "原神CP7 · 娜维娅×克洛琳德",
+  "nameEn": "Genshen CP7 . Navia x Clorinde",
+  "accent": "#b8863f",
+  "tagline": "枫丹双人主题：琥珀金 × 淡雾蓝 × 深蓝紫",
+  "description": "原神 CP 壁纸套件7 的 DeepKing 界面皮肤。主色取自插画采样: 娜维娅的琥珀金与克洛琳德的深蓝紫, 搭配枫丹的淡雾蓝与花园粉白; 亮色为象牙粉白, 夜景为深蓝紫。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP7",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "娜维娅",
+    "克洛琳德",
+    "壁纸"
+  ]
+}

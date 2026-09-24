@@ -1,0 +1,70 @@
+/**
+ * 原神CP24 · 甘雨×绫华 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp24 deepking --check
+ *
+ * 主色取自插画采样: 红伞与绯色和服的深红, 搭配霜蓝与樱粉。
+ */
+
+:root {
+  /* 亮色 · 雪白晨光(取自插画左上角的雪景与樱枝天光) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdfbfc;
+  --bg-layer-1: #fdfbfc;
+  --bg-layer-2: #f5eef1;
+  --bg-layer-3: #e6d9e0;
+
+  /* 文字: 主、次、弱 —— 深绯墨 */
+  --label-primary: #2b1a21;
+  --label-secondary: #553b45;
+  --label-tertiary: #8a6c78;
+
+  /* 品牌强调色: 红伞的深绯 */
+  --brand-primary: #b62230;
+  --accent: #b62230;
+  --primary: #b62230;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f7dfe3;
+  --interactive-bg-active: #eec3ca;
+
+  /* 边框 */
+  --border-l1: #ecdee4;
+  --border-l2: #d6c1cb;
+  --border: #d6c1cb;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自深绯夜色): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #211318;
+  --duskcolor-bglayer2: #2d1c22;
+  --duskcolor-bglayer3: #3f2831;
+
+  --duskcolor-labelprimary: #f5e8ec;
+  --duskcolor-labelsecondary: #cfb3bc;
+  --duskcolor-labeltertiary: #9e8089;
+
+  /* 夜间强调色: 绯红提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #d94250;
+
+  --duskcolor-hoversolid: #3f2831;
+  --duskcolor-activebg: #553641;
+
+  --duskcolor-borderl1: #3d262e;
+  --duskcolor-borderl2: #563743;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

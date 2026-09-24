@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genshin-skin-cp1"
+version = "0.1.0"
+description = "原神 CP 壁纸套件 1 —— 米提亚 x 沃雅妮莎: 单张样式一键切换壁纸、桌面桌宠、多 IDE 皮肤 (VSCode/Trae/CodeX/JetBrains/Harness/ClaudeCode/KimiCode)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Mr.Water", email = "wph666@users.noreply.github.com" }]
+keywords = [
+    "genshin",
+    "wallpaper",
+    "skin",
+    "desktop-pet",
+    "ide-theme",
+    "mcp",
+    "vscode",
+    "jetbrains",
+    "米提亚",
+    "沃雅妮莎",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: MacOS X",
+    "Environment :: X11 Applications",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Desktop Environment",
+    "Topic :: Multimedia :: Graphics",
+    "Natural Language :: Chinese (Simplified)",
+]
+dependencies = ["pillow>=9.0"]
+
+[project.optional-dependencies]
+dev = ["build>=1.0", "twine>=4.0"]
+
+[project.urls]
+Homepage = "https://github.com/WPH666-py/Genshen-Skin-CP1"
+Repository = "https://github.com/WPH666-py/Genshen-Skin-CP1"
+Source = "https://github.com/WPH666-py/Genshen-Skin-CP1"
+"Bug Tracker" = "https://github.com/WPH666-py/Genshen-Skin-CP1/issues"
+"镜像源" = "https://pypi.tuna.tsinghua.edu.cn/simple/genshin-skin-cp1/"
+
+[project.scripts]
+genshin-cp1 = "genshin_skin_cp1.cli:main"
+genshin-cp1-pet = "genshin_skin_cp1.pet:main"
+genshin-cp1-switcher = "genshin_skin_cp1.switcher:main"
+genshin-cp1-mcp = "genshin_skin_cp1.mcp_server:main"
+genshin-cp1-install = "genshin_skin_cp1.autoinstall:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+genshin_skin_cp1 = ["assets/*.jpg", "assets/*.txt", "skin.json"]

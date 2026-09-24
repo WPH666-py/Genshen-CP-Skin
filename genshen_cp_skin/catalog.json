@@ -1,0 +1,3150 @@
+{
+ "schema": 2,
+ "family": "原神 CP 壁纸套件",
+ "owner": "WPH666-py",
+ "repo": "Genshen-CP-Skin",
+ "pypi": "genshen-cp-skin",
+ "cli": "gc",
+ "homepage": "https://github.com/WPH666-py/Genshen-CP-Skin",
+ "generated_at": "2026-09-24T01:54:45Z",
+ "count": 24,
+ "note": "素材（源图）与各套自带引擎均在包内，装完即可离线使用；VSIX 与吉祥物等可选件按需联网取。",
+ "packs": [
+  {
+   "id": "cp1",
+   "no": 1,
+   "cp": 1,
+   "name": "原神CP1 · 米提亚×沃雅妮莎",
+   "nameEn": "CP1 · Mitiya x Voyanisa",
+   "char": "米提亚×沃雅妮莎",
+   "charEn": "Mitiya x Voyanisa",
+   "accent": "#3f8fd8",
+   "tagline": "米提亚与沃雅妮莎的蓝调同人主题：比心 / 共舞 / 道歉",
+   "aliases": [
+    "cp1",
+    "mitia",
+    "vodyanitsa",
+    "沃雅妮莎",
+    "米提亚"
+   ],
+   "repo": "Genshen-Skin-CP1",
+   "url": "https://github.com/WPH666-py/Genshen-Skin-CP1",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-Skin-CP1/main",
+   "clone": "https://github.com/WPH666-py/Genshen-Skin-CP1.git",
+   "sources": [
+    "src/genshin_skin_cp1/assets/01-heart.jpg",
+    "src/genshin_skin_cp1/assets/02-dance.jpg",
+    "src/genshin_skin_cp1/assets/03-sorry.jpg"
+   ],
+   "modes": 6,
+   "pack_dir": "cp01",
+   "engine": {
+    "cli": "src/genshin_skin_cp1/cli.py",
+    "package": "genshin_skin_cp1",
+    "engine_subdir": false,
+    "module": "genshin_skin_cp1.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshin-skin-cp1-0.1.0.vsix",
+   "deepking_css": "src/client/genshin-cp1.module.css",
+   "ext": {
+    "id": "wp666.genshin-skin-cp1",
+    "displayName": "原神CP1 — 米提亚×沃雅妮莎",
+    "version": "0.1.0",
+    "commands": [
+     "genshincp1.openGallery",
+     "genshincp1.set1",
+     "genshincp1.set2",
+     "genshincp1.set3",
+     "genshincp1.setRandom",
+     "genshincp1.openSwitcher",
+     "genshincp1.startPet",
+     "genshincp1.generateAll",
+     "genshincp1.showInfo"
+    ],
+    "show": "genshincp1.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshin-cp1.module.css",
+     "src/genshin_skin_cp1/__init__.py",
+     "src/genshin_skin_cp1/_color.py",
+     "src/genshin_skin_cp1/assets/01-heart.jpg",
+     "src/genshin_skin_cp1/assets/02-dance.jpg",
+     "src/genshin_skin_cp1/assets/03-sorry.jpg",
+     "src/genshin_skin_cp1/assets/SOURCE.txt",
+     "src/genshin_skin_cp1/autoinstall.py",
+     "src/genshin_skin_cp1/cli.py",
+     "src/genshin_skin_cp1/config.py",
+     "src/genshin_skin_cp1/deepking.py",
+     "src/genshin_skin_cp1/deepking_cli.py",
+     "src/genshin_skin_cp1/deepking_skin.py",
+     "src/genshin_skin_cp1/gui_launch.py",
+     "src/genshin_skin_cp1/mcp_server.py",
+     "src/genshin_skin_cp1/pet.py",
+     "src/genshin_skin_cp1/skin.json",
+     "src/genshin_skin_cp1/skin_core.py",
+     "src/genshin_skin_cp1/switcher.py",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp2",
+   "no": 2,
+   "cp": 2,
+   "name": "原神CP2 · 奥黛塔×沃雅妮莎",
+   "nameEn": "CP2 · Odette x Voyanisa",
+   "char": "奥黛塔×沃雅妮莎",
+   "charEn": "Odette x Voyanisa",
+   "accent": "#3a6fd8",
+   "tagline": "奥黛塔与沃雅妮莎的星蓝同人主题：相依 · 钴蓝星裙与薰衣草紫",
+   "aliases": [
+    "cp2",
+    "odette",
+    "vodyanitsa",
+    "奥黛塔",
+    "沃雅妮莎"
+   ],
+   "repo": "Genshen-skin-CP2",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP2",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP2/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP2.git",
+   "sources": [
+    "src/genshen_skin_cp2/engine/assets/01-odette.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp02",
+   "engine": {
+    "cli": "src/genshen_skin_cp2/engine/cli.py",
+    "package": "genshen_skin_cp2",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp2.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp2-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp2.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp2",
+    "displayName": "原神CP2 — 奥黛塔×沃雅妮莎",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp2.openGallery",
+     "genshencp2.setCard",
+     "genshencp2.setCover",
+     "genshencp2.setShowall",
+     "genshencp2.setRandom",
+     "genshencp2.openSwitcher",
+     "genshencp2.startPet",
+     "genshencp2.generateAll",
+     "genshencp2.showInfo"
+    ],
+    "show": "genshencp2.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp2.module.css",
+     "src/genshen_skin_cp2/__init__.py",
+     "src/genshen_skin_cp2/characters/odette_voj.py",
+     "src/genshen_skin_cp2/engine/__init__.py",
+     "src/genshen_skin_cp2/engine/_color.py",
+     "src/genshen_skin_cp2/engine/assets/01-odette.jpg",
+     "src/genshen_skin_cp2/engine/autoinstall.py",
+     "src/genshen_skin_cp2/engine/cli.py",
+     "src/genshen_skin_cp2/engine/deepking.py",
+     "src/genshen_skin_cp2/engine/deepking_cli.py",
+     "src/genshen_skin_cp2/engine/deepking_skin.py",
+     "src/genshen_skin_cp2/engine/gui_launch.py",
+     "src/genshen_skin_cp2/engine/mcp_server.py",
+     "src/genshen_skin_cp2/engine/pet.py",
+     "src/genshen_skin_cp2/engine/skin_core.py",
+     "src/genshen_skin_cp2/engine/switcher.py",
+     "src/genshen_skin_cp2/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp3",
+   "no": 3,
+   "cp": 3,
+   "name": "原神CP3 · 米提亚×奥黛塔×沃雅妮莎",
+   "nameEn": "CP3 · Mitiya x Odette x Voyanisa",
+   "char": "米提亚×奥黛塔×沃雅妮莎",
+   "charEn": "Mitiya x Odette x Voyanisa",
+   "accent": "#2f9e8f",
+   "tagline": "群像同人主题：青绿长发 × 钴蓝礼服 × 浅灰底",
+   "aliases": [
+    "cp3",
+    "三人",
+    "奥黛塔",
+    "沃雅妮莎",
+    "米提亚"
+   ],
+   "repo": "Genshen-skin-CP3",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP3",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP3/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP3.git",
+   "sources": [
+    "src/genshen_skin_cp3/engine/assets/01-trio.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp03",
+   "engine": {
+    "cli": "src/genshen_skin_cp3/engine/cli.py",
+    "package": "genshen_skin_cp3",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp3.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp3-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp3.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp3",
+    "displayName": "原神CP3 — 米提亚×奥黛塔×沃雅妮莎",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp3.openGallery",
+     "genshencp3.setCard",
+     "genshencp3.setCover",
+     "genshencp3.setShowall",
+     "genshencp3.setRandom",
+     "genshencp3.openSwitcher",
+     "genshencp3.startPet",
+     "genshencp3.generateAll",
+     "genshencp3.showInfo"
+    ],
+    "show": "genshencp3.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp3.module.css",
+     "src/genshen_skin_cp3/__init__.py",
+     "src/genshen_skin_cp3/characters/cp3_trio.py",
+     "src/genshen_skin_cp3/engine/__init__.py",
+     "src/genshen_skin_cp3/engine/_color.py",
+     "src/genshen_skin_cp3/engine/assets/01-trio.jpg",
+     "src/genshen_skin_cp3/engine/autoinstall.py",
+     "src/genshen_skin_cp3/engine/cli.py",
+     "src/genshen_skin_cp3/engine/deepking.py",
+     "src/genshen_skin_cp3/engine/deepking_cli.py",
+     "src/genshen_skin_cp3/engine/deepking_skin.py",
+     "src/genshen_skin_cp3/engine/gui_launch.py",
+     "src/genshen_skin_cp3/engine/mcp_server.py",
+     "src/genshen_skin_cp3/engine/pet.py",
+     "src/genshen_skin_cp3/engine/skin_core.py",
+     "src/genshen_skin_cp3/engine/switcher.py",
+     "src/genshen_skin_cp3/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp4",
+   "no": 4,
+   "cp": 4,
+   "name": "原神CP4 · 柯莱×安柏",
+   "nameEn": "CP4 · Collei x Amber",
+   "char": "柯莱×安柏",
+   "charEn": "Collei x Amber",
+   "accent": "#4f9e4a",
+   "tagline": "森林同人主题：草绿 × 琥珀 × 暖阳黄",
+   "aliases": [
+    "amber",
+    "collei",
+    "cp4",
+    "安柏",
+    "柯莱"
+   ],
+   "repo": "Genshen-skin-CP4",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP4",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP4/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP4.git",
+   "sources": [
+    "src/genshen_skin_cp4/engine/assets/01-collei.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp04",
+   "engine": {
+    "cli": "src/genshen_skin_cp4/engine/cli.py",
+    "package": "genshen_skin_cp4",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp4.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp4-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp4.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp4",
+    "displayName": "原神CP4 — 柯莱×安柏",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp4.openGallery",
+     "genshencp4.setCard",
+     "genshencp4.setCover",
+     "genshencp4.setShowall",
+     "genshencp4.setRandom",
+     "genshencp4.openSwitcher",
+     "genshencp4.startPet",
+     "genshencp4.generateAll",
+     "genshencp4.showInfo"
+    ],
+    "show": "genshencp4.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp4.module.css",
+     "src/genshen_skin_cp4/__init__.py",
+     "src/genshen_skin_cp4/characters/cp4_pair.py",
+     "src/genshen_skin_cp4/engine/__init__.py",
+     "src/genshen_skin_cp4/engine/_color.py",
+     "src/genshen_skin_cp4/engine/assets/01-collei.jpg",
+     "src/genshen_skin_cp4/engine/autoinstall.py",
+     "src/genshen_skin_cp4/engine/cli.py",
+     "src/genshen_skin_cp4/engine/deepking.py",
+     "src/genshen_skin_cp4/engine/deepking_cli.py",
+     "src/genshen_skin_cp4/engine/deepking_skin.py",
+     "src/genshen_skin_cp4/engine/gui_launch.py",
+     "src/genshen_skin_cp4/engine/mcp_server.py",
+     "src/genshen_skin_cp4/engine/pet.py",
+     "src/genshen_skin_cp4/engine/skin_core.py",
+     "src/genshen_skin_cp4/engine/switcher.py",
+     "src/genshen_skin_cp4/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp5",
+   "no": 5,
+   "cp": 5,
+   "name": "原神CP5 · 桑多涅×哥伦比娅",
+   "nameEn": "CP5 · Sandrone x Columbina",
+   "char": "桑多涅×哥伦比娅",
+   "charEn": "Sandrone x Columbina",
+   "accent": "#a8326e",
+   "tagline": "夜与晨的双色主题：紫红 × 金发蓝眼 × 夜街暖黄",
+   "aliases": [
+    "columbina",
+    "cp5",
+    "sandrone",
+    "哥伦比娅",
+    "桑多涅"
+   ],
+   "repo": "Genshen-skin-CP5",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP5",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP5/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP5.git",
+   "sources": [
+    "src/genshen_skin_cp5/engine/assets/01-street.jpg",
+    "src/genshen_skin_cp5/engine/assets/02-cafe.jpg",
+    "src/genshen_skin_cp5/engine/assets/03-close.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp05",
+   "engine": {
+    "cli": "src/genshen_skin_cp5/engine/cli.py",
+    "package": "genshen_skin_cp5",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp5.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp5-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp5.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp5",
+    "displayName": "原神CP5 — 桑多涅×哥伦比娅",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp5.openGallery",
+     "genshencp5.set1",
+     "genshencp5.set2",
+     "genshencp5.set3",
+     "genshencp5.setCard",
+     "genshencp5.setCover",
+     "genshencp5.setShowall",
+     "genshencp5.setRandom",
+     "genshencp5.openSwitcher",
+     "genshencp5.startPet",
+     "genshencp5.generateAll",
+     "genshencp5.showInfo"
+    ],
+    "show": "genshencp5.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp5.module.css",
+     "src/genshen_skin_cp5/__init__.py",
+     "src/genshen_skin_cp5/characters/cp5_pair.py",
+     "src/genshen_skin_cp5/engine/__init__.py",
+     "src/genshen_skin_cp5/engine/_color.py",
+     "src/genshen_skin_cp5/engine/assets/01-street.jpg",
+     "src/genshen_skin_cp5/engine/assets/02-cafe.jpg",
+     "src/genshen_skin_cp5/engine/assets/03-close.jpg",
+     "src/genshen_skin_cp5/engine/autoinstall.py",
+     "src/genshen_skin_cp5/engine/cli.py",
+     "src/genshen_skin_cp5/engine/deepking.py",
+     "src/genshen_skin_cp5/engine/deepking_cli.py",
+     "src/genshen_skin_cp5/engine/deepking_skin.py",
+     "src/genshen_skin_cp5/engine/gui_launch.py",
+     "src/genshen_skin_cp5/engine/mcp_server.py",
+     "src/genshen_skin_cp5/engine/pet.py",
+     "src/genshen_skin_cp5/engine/skin_core.py",
+     "src/genshen_skin_cp5/engine/switcher.py",
+     "src/genshen_skin_cp5/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp6",
+   "no": 6,
+   "cp": 6,
+   "name": "原神CP6 · 玛拉妮×基尼奇×卡其娜",
+   "nameEn": "CP6 · Mualani x Kinich x Kachina",
+   "char": "玛拉妮×基尼奇×卡其娜",
+   "charEn": "Mualani x Kinich x Kachina",
+   "accent": "#2e9ec4",
+   "tagline": "纳塔暖色主题：碧蓝 × 暖橙 × 沙金",
+   "aliases": [
+    "cp6",
+    "kachina",
+    "kinich",
+    "mualani",
+    "卡其娜",
+    "基尼奇",
+    "玛拉妮"
+   ],
+   "repo": "Genshen-skin-CP6",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP6",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP6/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP6.git",
+   "sources": [
+    "src/genshen_skin_cp6/engine/assets/01-natlan.jpg",
+    "src/genshen_skin_cp6/engine/assets/02-group.jpg"
+   ],
+   "modes": 6,
+   "pack_dir": "cp06",
+   "engine": {
+    "cli": "src/genshen_skin_cp6/engine/cli.py",
+    "package": "genshen_skin_cp6",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp6.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp6-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp6.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp6",
+    "displayName": "原神CP6 — 玛拉妮×基尼奇×卡其娜",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp6.openGallery",
+     "genshencp6.set1",
+     "genshencp6.set2",
+     "genshencp6.setCard",
+     "genshencp6.setCover",
+     "genshencp6.setShowall",
+     "genshencp6.setRandom",
+     "genshencp6.openSwitcher",
+     "genshencp6.startPet",
+     "genshencp6.generateAll",
+     "genshencp6.showInfo"
+    ],
+    "show": "genshencp6.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 32,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp6.module.css",
+     "src/genshen_skin_cp6/__init__.py",
+     "src/genshen_skin_cp6/characters/cp6_trio.py",
+     "src/genshen_skin_cp6/engine/__init__.py",
+     "src/genshen_skin_cp6/engine/_color.py",
+     "src/genshen_skin_cp6/engine/assets/01-natlan.jpg",
+     "src/genshen_skin_cp6/engine/assets/02-group.jpg",
+     "src/genshen_skin_cp6/engine/autoinstall.py",
+     "src/genshen_skin_cp6/engine/cli.py",
+     "src/genshen_skin_cp6/engine/deepking.py",
+     "src/genshen_skin_cp6/engine/deepking_cli.py",
+     "src/genshen_skin_cp6/engine/deepking_skin.py",
+     "src/genshen_skin_cp6/engine/gui_launch.py",
+     "src/genshen_skin_cp6/engine/mcp_server.py",
+     "src/genshen_skin_cp6/engine/pet.py",
+     "src/genshen_skin_cp6/engine/skin_core.py",
+     "src/genshen_skin_cp6/engine/switcher.py",
+     "src/genshen_skin_cp6/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp7",
+   "no": 7,
+   "cp": 7,
+   "name": "原神CP7 · 娜维娅×克洛琳德",
+   "nameEn": "CP7 · Navia x Clorinde",
+   "char": "娜维娅×克洛琳德",
+   "charEn": "Navia x Clorinde",
+   "accent": "#b8863f",
+   "tagline": "枫丹双人主题：琥珀金 × 淡雾蓝 × 深蓝紫",
+   "aliases": [
+    "clorinde",
+    "cp7",
+    "navia",
+    "克洛琳德",
+    "娜维娅"
+   ],
+   "repo": "Genshen-skin-CP7",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP7",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP7/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP7.git",
+   "sources": [
+    "src/genshen_skin_cp7/engine/assets/01-garden.jpg",
+    "src/genshen_skin_cp7/engine/assets/02-beach.jpg",
+    "src/genshen_skin_cp7/engine/assets/03-tea.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp07",
+   "engine": {
+    "cli": "src/genshen_skin_cp7/engine/cli.py",
+    "package": "genshen_skin_cp7",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp7.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp7-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp7.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp7",
+    "displayName": "原神CP7 — 娜维娅×克洛琳德",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp7.openGallery",
+     "genshencp7.set1",
+     "genshencp7.set2",
+     "genshencp7.set3",
+     "genshencp7.setCard",
+     "genshencp7.setCover",
+     "genshencp7.setShowall",
+     "genshencp7.setRandom",
+     "genshencp7.openSwitcher",
+     "genshencp7.startPet",
+     "genshencp7.generateAll",
+     "genshencp7.showInfo"
+    ],
+    "show": "genshencp7.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp7.module.css",
+     "src/genshen_skin_cp7/__init__.py",
+     "src/genshen_skin_cp7/characters/cp7_pair.py",
+     "src/genshen_skin_cp7/engine/__init__.py",
+     "src/genshen_skin_cp7/engine/_color.py",
+     "src/genshen_skin_cp7/engine/assets/01-garden.jpg",
+     "src/genshen_skin_cp7/engine/assets/02-beach.jpg",
+     "src/genshen_skin_cp7/engine/assets/03-tea.jpg",
+     "src/genshen_skin_cp7/engine/autoinstall.py",
+     "src/genshen_skin_cp7/engine/cli.py",
+     "src/genshen_skin_cp7/engine/deepking.py",
+     "src/genshen_skin_cp7/engine/deepking_cli.py",
+     "src/genshen_skin_cp7/engine/deepking_skin.py",
+     "src/genshen_skin_cp7/engine/gui_launch.py",
+     "src/genshen_skin_cp7/engine/mcp_server.py",
+     "src/genshen_skin_cp7/engine/pet.py",
+     "src/genshen_skin_cp7/engine/skin_core.py",
+     "src/genshen_skin_cp7/engine/switcher.py",
+     "src/genshen_skin_cp7/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp8",
+   "no": 8,
+   "cp": 8,
+   "name": "原神CP8 · 胡桃×芙宁娜",
+   "nameEn": "CP8 · Hu Tao x Furina",
+   "char": "胡桃×芙宁娜",
+   "charEn": "Hu Tao x Furina",
+   "accent": "#c8433a",
+   "tagline": "往生堂 × 枫丹廷：朱红 × 冰蓝 × 暖金",
+   "aliases": [
+    "cp8",
+    "furina",
+    "hutao",
+    "胡桃",
+    "芙宁娜"
+   ],
+   "repo": "Genshen-skin-CP8",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP8",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP8/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP8.git",
+   "sources": [
+    "src/genshen_skin_cp8/engine/assets/01-maid.jpg",
+    "src/genshen_skin_cp8/engine/assets/02-home.jpg",
+    "src/genshen_skin_cp8/engine/assets/03-festival.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp08",
+   "engine": {
+    "cli": "src/genshen_skin_cp8/engine/cli.py",
+    "package": "genshen_skin_cp8",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp8.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp8-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp8.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp8",
+    "displayName": "原神CP8 — 胡桃×芙宁娜",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp8.openGallery",
+     "genshencp8.set1",
+     "genshencp8.set2",
+     "genshencp8.set3",
+     "genshencp8.setCard",
+     "genshencp8.setCover",
+     "genshencp8.setShowall",
+     "genshencp8.setRandom",
+     "genshencp8.openSwitcher",
+     "genshencp8.startPet",
+     "genshencp8.generateAll",
+     "genshencp8.showInfo"
+    ],
+    "show": "genshencp8.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp8.module.css",
+     "src/genshen_skin_cp8/__init__.py",
+     "src/genshen_skin_cp8/characters/cp8_pair.py",
+     "src/genshen_skin_cp8/engine/__init__.py",
+     "src/genshen_skin_cp8/engine/_color.py",
+     "src/genshen_skin_cp8/engine/assets/01-maid.jpg",
+     "src/genshen_skin_cp8/engine/assets/02-home.jpg",
+     "src/genshen_skin_cp8/engine/assets/03-festival.jpg",
+     "src/genshen_skin_cp8/engine/autoinstall.py",
+     "src/genshen_skin_cp8/engine/cli.py",
+     "src/genshen_skin_cp8/engine/deepking.py",
+     "src/genshen_skin_cp8/engine/deepking_cli.py",
+     "src/genshen_skin_cp8/engine/deepking_skin.py",
+     "src/genshen_skin_cp8/engine/gui_launch.py",
+     "src/genshen_skin_cp8/engine/mcp_server.py",
+     "src/genshen_skin_cp8/engine/pet.py",
+     "src/genshen_skin_cp8/engine/skin_core.py",
+     "src/genshen_skin_cp8/engine/switcher.py",
+     "src/genshen_skin_cp8/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp9",
+   "no": 9,
+   "cp": 9,
+   "name": "原神CP9 · 神里绫华×宵宫",
+   "nameEn": "CP9 · Kamisato Ayaka x Yoimiya",
+   "char": "神里绫华×宵宫",
+   "charEn": "Kamisato Ayaka x Yoimiya",
+   "accent": "#e8734a",
+   "tagline": "稻妻双人主题：宵宫橙金 × 绫华青蓝 × 樱粉",
+   "aliases": [
+    "ayaka",
+    "cp9",
+    "yoimiya",
+    "宵宫",
+    "神里绫华"
+   ],
+   "repo": "Genshen-skin-CP9",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP9",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP9/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP9.git",
+   "sources": [
+    "src/genshen_skin_cp9/engine/assets/01-lake.jpg",
+    "src/genshen_skin_cp9/engine/assets/02-stairs.jpg"
+   ],
+   "modes": 6,
+   "pack_dir": "cp09",
+   "engine": {
+    "cli": "src/genshen_skin_cp9/engine/cli.py",
+    "package": "genshen_skin_cp9",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp9.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp9-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp9.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp9",
+    "displayName": "原神CP9 — 神里绫华×宵宫",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp9.openGallery",
+     "genshencp9.set1",
+     "genshencp9.set2",
+     "genshencp9.setCard",
+     "genshencp9.setCover",
+     "genshencp9.setShowall",
+     "genshencp9.setRandom",
+     "genshencp9.openSwitcher",
+     "genshencp9.startPet",
+     "genshencp9.generateAll",
+     "genshencp9.showInfo"
+    ],
+    "show": "genshencp9.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 32,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp9.module.css",
+     "src/genshen_skin_cp9/__init__.py",
+     "src/genshen_skin_cp9/characters/cp9_pair.py",
+     "src/genshen_skin_cp9/engine/__init__.py",
+     "src/genshen_skin_cp9/engine/_color.py",
+     "src/genshen_skin_cp9/engine/assets/01-lake.jpg",
+     "src/genshen_skin_cp9/engine/assets/02-stairs.jpg",
+     "src/genshen_skin_cp9/engine/autoinstall.py",
+     "src/genshen_skin_cp9/engine/cli.py",
+     "src/genshen_skin_cp9/engine/deepking.py",
+     "src/genshen_skin_cp9/engine/deepking_cli.py",
+     "src/genshen_skin_cp9/engine/deepking_skin.py",
+     "src/genshen_skin_cp9/engine/gui_launch.py",
+     "src/genshen_skin_cp9/engine/mcp_server.py",
+     "src/genshen_skin_cp9/engine/pet.py",
+     "src/genshen_skin_cp9/engine/skin_core.py",
+     "src/genshen_skin_cp9/engine/switcher.py",
+     "src/genshen_skin_cp9/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp10",
+   "no": 10,
+   "cp": 10,
+   "name": "原神CP10 · 雷电影×八重神子",
+   "nameEn": "CP10 · Raiden Shogun x Yae Miko",
+   "char": "雷电影×八重神子",
+   "charEn": "Raiden Shogun x Yae Miko",
+   "accent": "#8a5fb0",
+   "tagline": "鸣神双人主题：紫电 × 樱粉 × 天青",
+   "aliases": [
+    "cp10",
+    "shogun",
+    "yae",
+    "八重神子",
+    "雷电影"
+   ],
+   "repo": "Genshen-skin-CP10",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP10",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP10/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP10.git",
+   "sources": [
+    "src/genshen_skin_cp10/engine/assets/01-shrine.jpg",
+    "src/genshen_skin_cp10/engine/assets/02-sofa.jpg",
+    "src/genshen_skin_cp10/engine/assets/03-thunder.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp10",
+   "engine": {
+    "cli": "src/genshen_skin_cp10/engine/cli.py",
+    "package": "genshen_skin_cp10",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp10.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp10-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp10.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp10",
+    "displayName": "原神CP10 — 雷电影×八重神子",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp10.openGallery",
+     "genshencp10.set1",
+     "genshencp10.set2",
+     "genshencp10.set3",
+     "genshencp10.setCard",
+     "genshencp10.setCover",
+     "genshencp10.setShowall",
+     "genshencp10.setRandom",
+     "genshencp10.openSwitcher",
+     "genshencp10.startPet",
+     "genshencp10.generateAll",
+     "genshencp10.showInfo"
+    ],
+    "show": "genshencp10.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp10.module.css",
+     "src/genshen_skin_cp10/__init__.py",
+     "src/genshen_skin_cp10/characters/cp10_pair.py",
+     "src/genshen_skin_cp10/engine/__init__.py",
+     "src/genshen_skin_cp10/engine/_color.py",
+     "src/genshen_skin_cp10/engine/assets/01-shrine.jpg",
+     "src/genshen_skin_cp10/engine/assets/02-sofa.jpg",
+     "src/genshen_skin_cp10/engine/assets/03-thunder.jpg",
+     "src/genshen_skin_cp10/engine/autoinstall.py",
+     "src/genshen_skin_cp10/engine/cli.py",
+     "src/genshen_skin_cp10/engine/deepking.py",
+     "src/genshen_skin_cp10/engine/deepking_cli.py",
+     "src/genshen_skin_cp10/engine/deepking_skin.py",
+     "src/genshen_skin_cp10/engine/gui_launch.py",
+     "src/genshen_skin_cp10/engine/mcp_server.py",
+     "src/genshen_skin_cp10/engine/pet.py",
+     "src/genshen_skin_cp10/engine/skin_core.py",
+     "src/genshen_skin_cp10/engine/switcher.py",
+     "src/genshen_skin_cp10/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp11",
+   "no": 11,
+   "cp": 11,
+   "name": "原神CP11 · 胡桃×香菱",
+   "nameEn": "CP11 · Hu Tao x Xiangling",
+   "char": "胡桃×香菱",
+   "charEn": "Hu Tao x Xiangling",
+   "accent": "#b8352f",
+   "tagline": "锅巴与往生堂：胡桃红 × 暖橙 × 栗棕",
+   "aliases": [
+    "cp11",
+    "hutao",
+    "xiangling",
+    "胡桃",
+    "香菱"
+   ],
+   "repo": "Genshen-skin-CP11",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP11",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP11/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP11.git",
+   "sources": [
+    "src/genshen_skin_cp11/engine/assets/01-goofy.jpg",
+    "src/genshen_skin_cp11/engine/assets/02-hotpot.jpg",
+    "src/genshen_skin_cp11/engine/assets/03-lantern.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp11",
+   "engine": {
+    "cli": "src/genshen_skin_cp11/engine/cli.py",
+    "package": "genshen_skin_cp11",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp11.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp11-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp11.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp11",
+    "displayName": "原神CP11 — 胡桃×香菱",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp11.openGallery",
+     "genshencp11.set1",
+     "genshencp11.set2",
+     "genshencp11.set3",
+     "genshencp11.setCard",
+     "genshencp11.setCover",
+     "genshencp11.setShowall",
+     "genshencp11.setRandom",
+     "genshencp11.openSwitcher",
+     "genshencp11.startPet",
+     "genshencp11.generateAll",
+     "genshencp11.showInfo"
+    ],
+    "show": "genshencp11.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp11.module.css",
+     "src/genshen_skin_cp11/__init__.py",
+     "src/genshen_skin_cp11/characters/cp11_pair.py",
+     "src/genshen_skin_cp11/engine/__init__.py",
+     "src/genshen_skin_cp11/engine/_color.py",
+     "src/genshen_skin_cp11/engine/assets/01-goofy.jpg",
+     "src/genshen_skin_cp11/engine/assets/02-hotpot.jpg",
+     "src/genshen_skin_cp11/engine/assets/03-lantern.jpg",
+     "src/genshen_skin_cp11/engine/autoinstall.py",
+     "src/genshen_skin_cp11/engine/cli.py",
+     "src/genshen_skin_cp11/engine/deepking.py",
+     "src/genshen_skin_cp11/engine/deepking_cli.py",
+     "src/genshen_skin_cp11/engine/deepking_skin.py",
+     "src/genshen_skin_cp11/engine/gui_launch.py",
+     "src/genshen_skin_cp11/engine/mcp_server.py",
+     "src/genshen_skin_cp11/engine/pet.py",
+     "src/genshen_skin_cp11/engine/skin_core.py",
+     "src/genshen_skin_cp11/engine/switcher.py",
+     "src/genshen_skin_cp11/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp12",
+   "no": 12,
+   "cp": 12,
+   "name": "原神CP12 · 行秋×重云",
+   "nameEn": "CP12 · Xingqiu x Chongyun",
+   "char": "行秋×重云",
+   "charEn": "Xingqiu x Chongyun",
+   "accent": "#2f6bab",
+   "tagline": "冰与水的双色：行秋靛蓝 × 重云霜白 × 月华金",
+   "aliases": [
+    "chongyun",
+    "cp12",
+    "xingqiu",
+    "行秋",
+    "重云"
+   ],
+   "repo": "Genshen-skin-CP12",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP12",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP12/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP12.git",
+   "sources": [
+    "src/genshen_skin_cp12/engine/assets/01-moon.jpg",
+    "src/genshen_skin_cp12/engine/assets/02-umbrella.jpg",
+    "src/genshen_skin_cp12/engine/assets/03-sky.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp12",
+   "engine": {
+    "cli": "src/genshen_skin_cp12/engine/cli.py",
+    "package": "genshen_skin_cp12",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp12.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp12-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp12.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp12",
+    "displayName": "原神CP12 — 行秋×重云",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp12.openGallery",
+     "genshencp12.set1",
+     "genshencp12.set2",
+     "genshencp12.set3",
+     "genshencp12.setCard",
+     "genshencp12.setCover",
+     "genshencp12.setShowall",
+     "genshencp12.setRandom",
+     "genshencp12.openSwitcher",
+     "genshencp12.startPet",
+     "genshencp12.generateAll",
+     "genshencp12.showInfo"
+    ],
+    "show": "genshencp12.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp12.module.css",
+     "src/genshen_skin_cp12/__init__.py",
+     "src/genshen_skin_cp12/characters/cp12_pair.py",
+     "src/genshen_skin_cp12/engine/__init__.py",
+     "src/genshen_skin_cp12/engine/_color.py",
+     "src/genshen_skin_cp12/engine/assets/01-moon.jpg",
+     "src/genshen_skin_cp12/engine/assets/02-umbrella.jpg",
+     "src/genshen_skin_cp12/engine/assets/03-sky.jpg",
+     "src/genshen_skin_cp12/engine/autoinstall.py",
+     "src/genshen_skin_cp12/engine/cli.py",
+     "src/genshen_skin_cp12/engine/deepking.py",
+     "src/genshen_skin_cp12/engine/deepking_cli.py",
+     "src/genshen_skin_cp12/engine/deepking_skin.py",
+     "src/genshen_skin_cp12/engine/gui_launch.py",
+     "src/genshen_skin_cp12/engine/mcp_server.py",
+     "src/genshen_skin_cp12/engine/pet.py",
+     "src/genshen_skin_cp12/engine/skin_core.py",
+     "src/genshen_skin_cp12/engine/switcher.py",
+     "src/genshen_skin_cp12/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp13",
+   "no": 13,
+   "cp": 13,
+   "name": "原神CP13 · 钟离×凝光",
+   "nameEn": "CP13 · Zhongli x Ningguang",
+   "char": "钟离×凝光",
+   "charEn": "Zhongli x Ningguang",
+   "accent": "#c9a43f",
+   "tagline": "秋日璃月港：璃月金 × 琥珀褐 × 秋枫橙",
+   "aliases": [
+    "cp13",
+    "ningguang",
+    "zhongli",
+    "凝光",
+    "钟离"
+   ],
+   "repo": "Genshen-skin-CP13",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP13",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP13/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP13.git",
+   "sources": [
+    "src/genshen_skin_cp13/engine/assets/01-tea.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp13",
+   "engine": {
+    "cli": "src/genshen_skin_cp13/engine/cli.py",
+    "package": "genshen_skin_cp13",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp13.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp13-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp13.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp13",
+    "displayName": "原神CP13 — 钟离×凝光",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp13.openGallery",
+     "genshencp13.setCard",
+     "genshencp13.setCover",
+     "genshencp13.setShowall",
+     "genshencp13.setRandom",
+     "genshencp13.openSwitcher",
+     "genshencp13.startPet",
+     "genshencp13.generateAll",
+     "genshencp13.showInfo"
+    ],
+    "show": "genshencp13.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp13.module.css",
+     "src/genshen_skin_cp13/__init__.py",
+     "src/genshen_skin_cp13/characters/cp13_pair.py",
+     "src/genshen_skin_cp13/engine/__init__.py",
+     "src/genshen_skin_cp13/engine/_color.py",
+     "src/genshen_skin_cp13/engine/assets/01-tea.jpg",
+     "src/genshen_skin_cp13/engine/autoinstall.py",
+     "src/genshen_skin_cp13/engine/cli.py",
+     "src/genshen_skin_cp13/engine/deepking.py",
+     "src/genshen_skin_cp13/engine/deepking_cli.py",
+     "src/genshen_skin_cp13/engine/deepking_skin.py",
+     "src/genshen_skin_cp13/engine/gui_launch.py",
+     "src/genshen_skin_cp13/engine/mcp_server.py",
+     "src/genshen_skin_cp13/engine/pet.py",
+     "src/genshen_skin_cp13/engine/skin_core.py",
+     "src/genshen_skin_cp13/engine/switcher.py",
+     "src/genshen_skin_cp13/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp14",
+   "no": 14,
+   "cp": 14,
+   "name": "原神CP14 · 神里绫华×优菈×甘雨",
+   "nameEn": "CP14 · Ayaka x Eula x Ganyu",
+   "char": "神里绫华×优菈×甘雨",
+   "charEn": "Ayaka x Eula x Ganyu",
+   "accent": "#7ba7cc",
+   "tagline": "氷元素学科：冰蓝 × 霜白 × 蓝灰格纹",
+   "aliases": [
+    "ayaka",
+    "cp14",
+    "eula",
+    "ganyu",
+    "优菈",
+    "甘雨",
+    "神里绫华"
+   ],
+   "repo": "Genshen-skin-CP14",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP14",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP14/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP14.git",
+   "sources": [
+    "src/genshen_skin_cp14/engine/assets/01-classroom.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp14",
+   "engine": {
+    "cli": "src/genshen_skin_cp14/engine/cli.py",
+    "package": "genshen_skin_cp14",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp14.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp14-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp14.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp14",
+    "displayName": "原神CP14 — 神里绫华×优菈×甘雨",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp14.openGallery",
+     "genshencp14.setCard",
+     "genshencp14.setCover",
+     "genshencp14.setShowall",
+     "genshencp14.setRandom",
+     "genshencp14.openSwitcher",
+     "genshencp14.startPet",
+     "genshencp14.generateAll",
+     "genshencp14.showInfo"
+    ],
+    "show": "genshencp14.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp14.module.css",
+     "src/genshen_skin_cp14/__init__.py",
+     "src/genshen_skin_cp14/characters/cp14_trio.py",
+     "src/genshen_skin_cp14/engine/__init__.py",
+     "src/genshen_skin_cp14/engine/_color.py",
+     "src/genshen_skin_cp14/engine/assets/01-classroom.jpg",
+     "src/genshen_skin_cp14/engine/autoinstall.py",
+     "src/genshen_skin_cp14/engine/cli.py",
+     "src/genshen_skin_cp14/engine/deepking.py",
+     "src/genshen_skin_cp14/engine/deepking_cli.py",
+     "src/genshen_skin_cp14/engine/deepking_skin.py",
+     "src/genshen_skin_cp14/engine/gui_launch.py",
+     "src/genshen_skin_cp14/engine/mcp_server.py",
+     "src/genshen_skin_cp14/engine/pet.py",
+     "src/genshen_skin_cp14/engine/skin_core.py",
+     "src/genshen_skin_cp14/engine/switcher.py",
+     "src/genshen_skin_cp14/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp15",
+   "no": 15,
+   "cp": 15,
+   "name": "原神CP15 · 甘雨×刻晴",
+   "nameEn": "CP15 · Ganyu x Keqing",
+   "char": "甘雨×刻晴",
+   "charEn": "Ganyu x Keqing",
+   "accent": "#8fbde0",
+   "tagline": "冰与雷的双子：冰蓝 × 夜紫 × 樱粉",
+   "aliases": [
+    "cp15",
+    "ganyu",
+    "keqing",
+    "刻晴",
+    "甘雨"
+   ],
+   "repo": "Genshen-skin-CP15",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP15",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP15/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP15.git",
+   "sources": [
+    "src/genshen_skin_cp15/engine/assets/01-lantern.jpg",
+    "src/genshen_skin_cp15/engine/assets/02-bridge.jpg",
+    "src/genshen_skin_cp15/engine/assets/03-kitchen.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp15",
+   "engine": {
+    "cli": "src/genshen_skin_cp15/engine/cli.py",
+    "package": "genshen_skin_cp15",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp15.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp15-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp15.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp15",
+    "displayName": "原神CP15 — 甘雨×刻晴",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp15.openGallery",
+     "genshencp15.set1",
+     "genshencp15.set2",
+     "genshencp15.set3",
+     "genshencp15.setCard",
+     "genshencp15.setCover",
+     "genshencp15.setShowall",
+     "genshencp15.setRandom",
+     "genshencp15.openSwitcher",
+     "genshencp15.startPet",
+     "genshencp15.generateAll",
+     "genshencp15.showInfo"
+    ],
+    "show": "genshencp15.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp15.module.css",
+     "src/genshen_skin_cp15/__init__.py",
+     "src/genshen_skin_cp15/characters/cp15_pair.py",
+     "src/genshen_skin_cp15/engine/__init__.py",
+     "src/genshen_skin_cp15/engine/_color.py",
+     "src/genshen_skin_cp15/engine/assets/01-lantern.jpg",
+     "src/genshen_skin_cp15/engine/assets/02-bridge.jpg",
+     "src/genshen_skin_cp15/engine/assets/03-kitchen.jpg",
+     "src/genshen_skin_cp15/engine/autoinstall.py",
+     "src/genshen_skin_cp15/engine/cli.py",
+     "src/genshen_skin_cp15/engine/deepking.py",
+     "src/genshen_skin_cp15/engine/deepking_cli.py",
+     "src/genshen_skin_cp15/engine/deepking_skin.py",
+     "src/genshen_skin_cp15/engine/gui_launch.py",
+     "src/genshen_skin_cp15/engine/mcp_server.py",
+     "src/genshen_skin_cp15/engine/pet.py",
+     "src/genshen_skin_cp15/engine/skin_core.py",
+     "src/genshen_skin_cp15/engine/switcher.py",
+     "src/genshen_skin_cp15/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp16",
+   "no": 16,
+   "cp": 16,
+   "name": "原神CP16 · 温迪×芭芭拉",
+   "nameEn": "CP16 · Venti x Barbara",
+   "char": "温迪×芭芭拉",
+   "charEn": "Venti x Barbara",
+   "accent": "#c9a227",
+   "tagline": "镜头前的双子：暖金 × 天青 × 薄荷绿",
+   "aliases": [
+    "barbara",
+    "cp16",
+    "venti",
+    "温迪",
+    "芭芭拉"
+   ],
+   "repo": "Genshen-skin-CP16",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP16",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP16/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP16.git",
+   "sources": [
+    "src/genshen_skin_cp16/engine/assets/01-rec.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp16",
+   "engine": {
+    "cli": "src/genshen_skin_cp16/engine/cli.py",
+    "package": "genshen_skin_cp16",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp16.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp16-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp16.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp16",
+    "displayName": "原神CP16 — 温迪×芭芭拉",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp16.openGallery",
+     "genshencp16.setCard",
+     "genshencp16.setCover",
+     "genshencp16.setShowall",
+     "genshencp16.setRandom",
+     "genshencp16.openSwitcher",
+     "genshencp16.startPet",
+     "genshencp16.generateAll",
+     "genshencp16.showInfo"
+    ],
+    "show": "genshencp16.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp16.module.css",
+     "src/genshen_skin_cp16/__init__.py",
+     "src/genshen_skin_cp16/characters/cp16_pair.py",
+     "src/genshen_skin_cp16/engine/__init__.py",
+     "src/genshen_skin_cp16/engine/_color.py",
+     "src/genshen_skin_cp16/engine/assets/01-rec.jpg",
+     "src/genshen_skin_cp16/engine/autoinstall.py",
+     "src/genshen_skin_cp16/engine/cli.py",
+     "src/genshen_skin_cp16/engine/deepking.py",
+     "src/genshen_skin_cp16/engine/deepking_cli.py",
+     "src/genshen_skin_cp16/engine/deepking_skin.py",
+     "src/genshen_skin_cp16/engine/gui_launch.py",
+     "src/genshen_skin_cp16/engine/mcp_server.py",
+     "src/genshen_skin_cp16/engine/pet.py",
+     "src/genshen_skin_cp16/engine/skin_core.py",
+     "src/genshen_skin_cp16/engine/switcher.py",
+     "src/genshen_skin_cp16/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp17",
+   "no": 17,
+   "cp": 17,
+   "name": "原神CP17 · 奥黛塔×沃雅妮莎×米提亚×阿罗夏",
+   "nameEn": "CP17 · Odette x Voyanisa x Mitiya x Arosha",
+   "char": "奥黛塔×沃雅妮莎×米提亚×阿罗夏",
+   "charEn": "Odette x Voyanisa x Mitiya x Arosha",
+   "accent": "#6b79ad",
+   "tagline": "四格合影：雾蓝 × 薰衣草紫 × 霜白",
+   "aliases": [
+    "cp17",
+    "odette",
+    "vodyanitsa",
+    "奥黛塔",
+    "沃雅妮莎",
+    "米提亚",
+    "阿罗夏"
+   ],
+   "repo": "Genshen-skin-CP17",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP17",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP17/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP17.git",
+   "sources": [
+    "src/genshen_skin_cp17/engine/assets/01-quartet.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp17",
+   "engine": {
+    "cli": "src/genshen_skin_cp17/engine/cli.py",
+    "package": "genshen_skin_cp17",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp17.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp17-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp17.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp17",
+    "displayName": "原神CP17 — 奥黛塔×沃雅妮莎×米提亚×阿罗夏",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp17.openGallery",
+     "genshencp17.setShowall",
+     "genshencp17.setCard",
+     "genshencp17.setCover",
+     "genshencp17.setRandom",
+     "genshencp17.openSwitcher",
+     "genshencp17.startPet",
+     "genshencp17.generateAll",
+     "genshencp17.showInfo"
+    ],
+    "show": "genshencp17.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp17.module.css",
+     "src/genshen_skin_cp17/__init__.py",
+     "src/genshen_skin_cp17/characters/cp17_quartet.py",
+     "src/genshen_skin_cp17/engine/__init__.py",
+     "src/genshen_skin_cp17/engine/_color.py",
+     "src/genshen_skin_cp17/engine/assets/01-quartet.jpg",
+     "src/genshen_skin_cp17/engine/autoinstall.py",
+     "src/genshen_skin_cp17/engine/cli.py",
+     "src/genshen_skin_cp17/engine/deepking.py",
+     "src/genshen_skin_cp17/engine/deepking_cli.py",
+     "src/genshen_skin_cp17/engine/deepking_skin.py",
+     "src/genshen_skin_cp17/engine/gui_launch.py",
+     "src/genshen_skin_cp17/engine/mcp_server.py",
+     "src/genshen_skin_cp17/engine/pet.py",
+     "src/genshen_skin_cp17/engine/skin_core.py",
+     "src/genshen_skin_cp17/engine/switcher.py",
+     "src/genshen_skin_cp17/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp18",
+   "no": 18,
+   "cp": 18,
+   "name": "原神CP18 · 散兵×万叶",
+   "nameEn": "CP18 · Scaramouche x Kazuha",
+   "char": "散兵×万叶",
+   "charEn": "Scaramouche x Kazuha",
+   "accent": "#3d3a6b",
+   "tagline": "紫蓝与霜白：深靛 × 枫红 × 月白",
+   "aliases": [
+    "cp18",
+    "kazuha",
+    "scaramouche",
+    "万叶",
+    "散兵",
+    "流浪者"
+   ],
+   "repo": "Genshen-skin-CP18",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP18",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP18/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP18.git",
+   "sources": [
+    "src/genshen_skin_cp18/engine/assets/01-close.jpg",
+    "src/genshen_skin_cp18/engine/assets/02-kiss.jpg",
+    "src/genshen_skin_cp18/engine/assets/03-rec.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp18",
+   "engine": {
+    "cli": "src/genshen_skin_cp18/engine/cli.py",
+    "package": "genshen_skin_cp18",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp18.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp18-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp18.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp18",
+    "displayName": "原神CP18 — 散兵×万叶",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp18.openGallery",
+     "genshencp18.set1",
+     "genshencp18.set2",
+     "genshencp18.set3",
+     "genshencp18.setCard",
+     "genshencp18.setCover",
+     "genshencp18.setShowall",
+     "genshencp18.setRandom",
+     "genshencp18.openSwitcher",
+     "genshencp18.startPet",
+     "genshencp18.generateAll",
+     "genshencp18.showInfo"
+    ],
+    "show": "genshencp18.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp18.module.css",
+     "src/genshen_skin_cp18/__init__.py",
+     "src/genshen_skin_cp18/characters/cp18_pair.py",
+     "src/genshen_skin_cp18/engine/__init__.py",
+     "src/genshen_skin_cp18/engine/_color.py",
+     "src/genshen_skin_cp18/engine/assets/01-close.jpg",
+     "src/genshen_skin_cp18/engine/assets/02-kiss.jpg",
+     "src/genshen_skin_cp18/engine/assets/03-rec.jpg",
+     "src/genshen_skin_cp18/engine/autoinstall.py",
+     "src/genshen_skin_cp18/engine/cli.py",
+     "src/genshen_skin_cp18/engine/deepking.py",
+     "src/genshen_skin_cp18/engine/deepking_cli.py",
+     "src/genshen_skin_cp18/engine/deepking_skin.py",
+     "src/genshen_skin_cp18/engine/gui_launch.py",
+     "src/genshen_skin_cp18/engine/mcp_server.py",
+     "src/genshen_skin_cp18/engine/pet.py",
+     "src/genshen_skin_cp18/engine/skin_core.py",
+     "src/genshen_skin_cp18/engine/switcher.py",
+     "src/genshen_skin_cp18/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp19",
+   "no": 19,
+   "cp": 19,
+   "name": "原神CP19 · 空×荧",
+   "nameEn": "CP19 · Aether x Lumine",
+   "char": "空×荧",
+   "charEn": "Aether x Lumine",
+   "accent": "#c9a44a",
+   "tagline": "双子同行：暖金 × 星夜蓝 × 林间青",
+   "aliases": [
+    "aether",
+    "cp19",
+    "lumine",
+    "旅行者",
+    "空",
+    "荧"
+   ],
+   "repo": "Genshen-skin-CP19",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP19",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP19/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP19.git",
+   "sources": [
+    "src/genshen_skin_cp19/engine/assets/01-space.jpg",
+    "src/genshen_skin_cp19/engine/assets/02-window.jpg",
+    "src/genshen_skin_cp19/engine/assets/03-forest.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp19",
+   "engine": {
+    "cli": "src/genshen_skin_cp19/engine/cli.py",
+    "package": "genshen_skin_cp19",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp19.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp19-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp19.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp19",
+    "displayName": "原神CP19 — 空×荧",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp19.openGallery",
+     "genshencp19.set1",
+     "genshencp19.set2",
+     "genshencp19.set3",
+     "genshencp19.setCard",
+     "genshencp19.setCover",
+     "genshencp19.setShowall",
+     "genshencp19.setRandom",
+     "genshencp19.openSwitcher",
+     "genshencp19.startPet",
+     "genshencp19.generateAll",
+     "genshencp19.showInfo"
+    ],
+    "show": "genshencp19.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp19.module.css",
+     "src/genshen_skin_cp19/__init__.py",
+     "src/genshen_skin_cp19/characters/cp19_pair.py",
+     "src/genshen_skin_cp19/engine/__init__.py",
+     "src/genshen_skin_cp19/engine/_color.py",
+     "src/genshen_skin_cp19/engine/assets/01-space.jpg",
+     "src/genshen_skin_cp19/engine/assets/02-window.jpg",
+     "src/genshen_skin_cp19/engine/assets/03-forest.jpg",
+     "src/genshen_skin_cp19/engine/autoinstall.py",
+     "src/genshen_skin_cp19/engine/cli.py",
+     "src/genshen_skin_cp19/engine/deepking.py",
+     "src/genshen_skin_cp19/engine/deepking_cli.py",
+     "src/genshen_skin_cp19/engine/deepking_skin.py",
+     "src/genshen_skin_cp19/engine/gui_launch.py",
+     "src/genshen_skin_cp19/engine/mcp_server.py",
+     "src/genshen_skin_cp19/engine/pet.py",
+     "src/genshen_skin_cp19/engine/skin_core.py",
+     "src/genshen_skin_cp19/engine/switcher.py",
+     "src/genshen_skin_cp19/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp20",
+   "no": 20,
+   "cp": 20,
+   "name": "原神CP20 · 散兵×荧",
+   "nameEn": "CP20 · Scaramouche x Lumine",
+   "char": "散兵×荧",
+   "charEn": "Scaramouche x Lumine",
+   "accent": "#3f3c63",
+   "tagline": "深靛与暖金：散兵的靛紫 × 荧的金发 × 水畔灯火",
+   "aliases": [
+    "cp20",
+    "lumine",
+    "scaramouche",
+    "散兵",
+    "荧"
+   ],
+   "repo": "Genshen-skin-CP20",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP20",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP20/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP20.git",
+   "sources": [
+    "src/genshen_skin_cp20/engine/assets/01-touch.jpg",
+    "src/genshen_skin_cp20/engine/assets/02-close.jpg",
+    "src/genshen_skin_cp20/engine/assets/03-water.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp20",
+   "engine": {
+    "cli": "src/genshen_skin_cp20/engine/cli.py",
+    "package": "genshen_skin_cp20",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp20.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp20-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp20.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp20",
+    "displayName": "原神CP20 — 散兵×荧",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp20.openGallery",
+     "genshencp20.set1",
+     "genshencp20.set2",
+     "genshencp20.set3",
+     "genshencp20.setCard",
+     "genshencp20.setCover",
+     "genshencp20.setShowall",
+     "genshencp20.setRandom",
+     "genshencp20.openSwitcher",
+     "genshencp20.startPet",
+     "genshencp20.generateAll",
+     "genshencp20.showInfo"
+    ],
+    "show": "genshencp20.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp20.module.css",
+     "src/genshen_skin_cp20/__init__.py",
+     "src/genshen_skin_cp20/characters/cp20_pair.py",
+     "src/genshen_skin_cp20/engine/__init__.py",
+     "src/genshen_skin_cp20/engine/_color.py",
+     "src/genshen_skin_cp20/engine/assets/01-touch.jpg",
+     "src/genshen_skin_cp20/engine/assets/02-close.jpg",
+     "src/genshen_skin_cp20/engine/assets/03-water.jpg",
+     "src/genshen_skin_cp20/engine/autoinstall.py",
+     "src/genshen_skin_cp20/engine/cli.py",
+     "src/genshen_skin_cp20/engine/deepking.py",
+     "src/genshen_skin_cp20/engine/deepking_cli.py",
+     "src/genshen_skin_cp20/engine/deepking_skin.py",
+     "src/genshen_skin_cp20/engine/gui_launch.py",
+     "src/genshen_skin_cp20/engine/mcp_server.py",
+     "src/genshen_skin_cp20/engine/pet.py",
+     "src/genshen_skin_cp20/engine/skin_core.py",
+     "src/genshen_skin_cp20/engine/switcher.py",
+     "src/genshen_skin_cp20/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp21",
+   "no": 21,
+   "cp": 21,
+   "name": "原神CP21 · 魈×荧",
+   "nameEn": "CP21 · Xiao x Lumine",
+   "char": "魈×荧",
+   "charEn": "Xiao x Lumine",
+   "accent": "#3f7d78",
+   "tagline": "秋叶与墨绿：魈的青绿 × 荧的暖金 × 秋叶橙",
+   "aliases": [
+    "cp21",
+    "lumine",
+    "xiao",
+    "荧",
+    "魈"
+   ],
+   "repo": "Genshen-skin-CP21",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP21",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP21/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP21.git",
+   "sources": [
+    "src/genshen_skin_cp21/engine/assets/01-autumn.jpg",
+    "src/genshen_skin_cp21/engine/assets/02-hug.jpg",
+    "src/genshen_skin_cp21/engine/assets/03-blush.jpg"
+   ],
+   "modes": 9,
+   "pack_dir": "cp21",
+   "engine": {
+    "cli": "src/genshen_skin_cp21/engine/cli.py",
+    "package": "genshen_skin_cp21",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp21.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp21-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp21.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp21",
+    "displayName": "原神CP21 — 魈×荧",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp21.openGallery",
+     "genshencp21.set1",
+     "genshencp21.set2",
+     "genshencp21.set3",
+     "genshencp21.setCard",
+     "genshencp21.setCover",
+     "genshencp21.setShowall",
+     "genshencp21.setRandom",
+     "genshencp21.openSwitcher",
+     "genshencp21.startPet",
+     "genshencp21.generateAll",
+     "genshencp21.showInfo"
+    ],
+    "show": "genshencp21.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 33,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp21.module.css",
+     "src/genshen_skin_cp21/__init__.py",
+     "src/genshen_skin_cp21/characters/cp21_pair.py",
+     "src/genshen_skin_cp21/engine/__init__.py",
+     "src/genshen_skin_cp21/engine/_color.py",
+     "src/genshen_skin_cp21/engine/assets/01-autumn.jpg",
+     "src/genshen_skin_cp21/engine/assets/02-hug.jpg",
+     "src/genshen_skin_cp21/engine/assets/03-blush.jpg",
+     "src/genshen_skin_cp21/engine/autoinstall.py",
+     "src/genshen_skin_cp21/engine/cli.py",
+     "src/genshen_skin_cp21/engine/deepking.py",
+     "src/genshen_skin_cp21/engine/deepking_cli.py",
+     "src/genshen_skin_cp21/engine/deepking_skin.py",
+     "src/genshen_skin_cp21/engine/gui_launch.py",
+     "src/genshen_skin_cp21/engine/mcp_server.py",
+     "src/genshen_skin_cp21/engine/pet.py",
+     "src/genshen_skin_cp21/engine/skin_core.py",
+     "src/genshen_skin_cp21/engine/switcher.py",
+     "src/genshen_skin_cp21/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "single2",
+     "desc": ""
+    },
+    {
+     "id": "single3",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "cover2",
+     "desc": ""
+    },
+    {
+     "id": "cover3",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    },
+    {
+     "id": "showall2",
+     "desc": ""
+    },
+    {
+     "id": "showall3",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp22",
+   "no": 22,
+   "cp": 22,
+   "name": "原神CP22 · 荧×达达利亚",
+   "nameEn": "CP22 · Lumine x Tartaglia",
+   "char": "荧×达达利亚",
+   "charEn": "Lumine x Tartaglia",
+   "accent": "#5c78b0",
+   "tagline": "蓝玫瑰的誓约：矢车菊蓝 × 婚纱米白 × 紫藤",
+   "aliases": [
+    "childe",
+    "cp22",
+    "lumine",
+    "tartaglia",
+    "公子",
+    "荧",
+    "达达利亚"
+   ],
+   "repo": "Genshen-skin-CP22",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP22",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP22/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP22.git",
+   "sources": [
+    "src/genshen_skin_cp22/engine/assets/01-wedding.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp22",
+   "engine": {
+    "cli": "src/genshen_skin_cp22/engine/cli.py",
+    "package": "genshen_skin_cp22",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp22.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp22-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp22.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp22",
+    "displayName": "原神CP22 — 荧×达达利亚",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp22.openGallery",
+     "genshencp22.setCard",
+     "genshencp22.setCover",
+     "genshencp22.setShowall",
+     "genshencp22.setRandom",
+     "genshencp22.openSwitcher",
+     "genshencp22.startPet",
+     "genshencp22.generateAll",
+     "genshencp22.showInfo"
+    ],
+    "show": "genshencp22.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp22.module.css",
+     "src/genshen_skin_cp22/__init__.py",
+     "src/genshen_skin_cp22/characters/cp22_pair.py",
+     "src/genshen_skin_cp22/engine/__init__.py",
+     "src/genshen_skin_cp22/engine/_color.py",
+     "src/genshen_skin_cp22/engine/assets/01-wedding.jpg",
+     "src/genshen_skin_cp22/engine/autoinstall.py",
+     "src/genshen_skin_cp22/engine/cli.py",
+     "src/genshen_skin_cp22/engine/deepking.py",
+     "src/genshen_skin_cp22/engine/deepking_cli.py",
+     "src/genshen_skin_cp22/engine/deepking_skin.py",
+     "src/genshen_skin_cp22/engine/gui_launch.py",
+     "src/genshen_skin_cp22/engine/mcp_server.py",
+     "src/genshen_skin_cp22/engine/pet.py",
+     "src/genshen_skin_cp22/engine/skin_core.py",
+     "src/genshen_skin_cp22/engine/switcher.py",
+     "src/genshen_skin_cp22/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp23",
+   "no": 23,
+   "cp": 23,
+   "name": "原神CP23 · 荧×诺艾尔",
+   "nameEn": "CP23 · Lumine x Noelle",
+   "char": "荧×诺艾尔",
+   "charEn": "Lumine x Noelle",
+   "accent": "#b03a35",
+   "tagline": "西风骑士的拥抱：玫瑰红 × 暖金 × 奶白",
+   "aliases": [
+    "cp23",
+    "lumine",
+    "noelle",
+    "荧",
+    "诺艾尔"
+   ],
+   "repo": "Genshen-skin-CP23",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP23",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP23/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP23.git",
+   "sources": [
+    "src/genshen_skin_cp23/engine/assets/01-hug.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp23",
+   "engine": {
+    "cli": "src/genshen_skin_cp23/engine/cli.py",
+    "package": "genshen_skin_cp23",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp23.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp23-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp23.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp23",
+    "displayName": "原神CP23 — 荧×诺艾尔",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp23.openGallery",
+     "genshencp23.setCard",
+     "genshencp23.setCover",
+     "genshencp23.setShowall",
+     "genshencp23.setRandom",
+     "genshencp23.openSwitcher",
+     "genshencp23.startPet",
+     "genshencp23.generateAll",
+     "genshencp23.showInfo"
+    ],
+    "show": "genshencp23.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp23.module.css",
+     "src/genshen_skin_cp23/__init__.py",
+     "src/genshen_skin_cp23/characters/cp23_pair.py",
+     "src/genshen_skin_cp23/engine/__init__.py",
+     "src/genshen_skin_cp23/engine/_color.py",
+     "src/genshen_skin_cp23/engine/assets/01-hug.jpg",
+     "src/genshen_skin_cp23/engine/autoinstall.py",
+     "src/genshen_skin_cp23/engine/cli.py",
+     "src/genshen_skin_cp23/engine/deepking.py",
+     "src/genshen_skin_cp23/engine/deepking_cli.py",
+     "src/genshen_skin_cp23/engine/deepking_skin.py",
+     "src/genshen_skin_cp23/engine/gui_launch.py",
+     "src/genshen_skin_cp23/engine/mcp_server.py",
+     "src/genshen_skin_cp23/engine/pet.py",
+     "src/genshen_skin_cp23/engine/skin_core.py",
+     "src/genshen_skin_cp23/engine/switcher.py",
+     "src/genshen_skin_cp23/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cp24",
+   "no": 24,
+   "cp": 24,
+   "name": "原神CP24 · 甘雨×绫华",
+   "nameEn": "CP24 · Ganyu x Ayaka",
+   "char": "甘雨×绫华",
+   "charEn": "Ganyu x Ayaka",
+   "accent": "#b62230",
+   "tagline": "绯红与霜蓝：红伞 × 绯色和服 × 樱粉雪景",
+   "aliases": [
+    "ayaka",
+    "cp24",
+    "ganyu",
+    "甘雨",
+    "神里绫华",
+    "绫华"
+   ],
+   "repo": "Genshen-skin-CP24",
+   "url": "https://github.com/WPH666-py/Genshen-skin-CP24",
+   "raw": "https://raw.githubusercontent.com/WPH666-py/Genshen-skin-CP24/main",
+   "clone": "https://github.com/WPH666-py/Genshen-skin-CP24.git",
+   "sources": [
+    "src/genshen_skin_cp24/engine/assets/01-kimono.jpg"
+   ],
+   "modes": 3,
+   "pack_dir": "cp24",
+   "engine": {
+    "cli": "src/genshen_skin_cp24/engine/cli.py",
+    "package": "genshen_skin_cp24",
+    "engine_subdir": true,
+    "module": "genshen_skin_cp24.engine.cli",
+    "pet": true,
+    "deepking": true
+   },
+   "caps": {
+    "wallpaper": true,
+    "desktop": true,
+    "vscode": true,
+    "deepking": true
+   },
+   "vsix": "vscode/genshen-skin-cp24-0.1.0.vsix",
+   "deepking_css": "src/client/genshen-cp24.module.css",
+   "ext": {
+    "id": "wp666.genshen-skin-cp24",
+    "displayName": "原神CP24 — 甘雨×绫华",
+    "version": "0.1.0",
+    "commands": [
+     "genshencp24.openGallery",
+     "genshencp24.setCard",
+     "genshencp24.setCover",
+     "genshencp24.setShowall",
+     "genshencp24.setRandom",
+     "genshencp24.openSwitcher",
+     "genshencp24.startPet",
+     "genshencp24.generateAll",
+     "genshencp24.showInfo"
+    ],
+    "show": "genshencp24.showInfo",
+    "uninstall": null
+   },
+   "bundled": {
+    "sources": true,
+    "engine": true,
+    "vsix": false,
+    "files": 31,
+    "file_list": [
+     "AGENTS.md",
+     "AI-INSTALL.md",
+     "README.md",
+     "ide/jetbrains/README.md",
+     "install.bat",
+     "install.sh",
+     "pyproject.toml",
+     "skin.json",
+     "src/client/SKIN-NOTES.md",
+     "src/client/genshen-cp24.module.css",
+     "src/genshen_skin_cp24/__init__.py",
+     "src/genshen_skin_cp24/characters/cp24_pair.py",
+     "src/genshen_skin_cp24/engine/__init__.py",
+     "src/genshen_skin_cp24/engine/_color.py",
+     "src/genshen_skin_cp24/engine/assets/01-kimono.jpg",
+     "src/genshen_skin_cp24/engine/autoinstall.py",
+     "src/genshen_skin_cp24/engine/cli.py",
+     "src/genshen_skin_cp24/engine/deepking.py",
+     "src/genshen_skin_cp24/engine/deepking_cli.py",
+     "src/genshen_skin_cp24/engine/deepking_skin.py",
+     "src/genshen_skin_cp24/engine/gui_launch.py",
+     "src/genshen_skin_cp24/engine/mcp_server.py",
+     "src/genshen_skin_cp24/engine/pet.py",
+     "src/genshen_skin_cp24/engine/skin_core.py",
+     "src/genshen_skin_cp24/engine/switcher.py",
+     "src/genshen_skin_cp24/skin.json",
+     "vscode/README.md",
+     "vscode/extension.js",
+     "vscode/gen_media.py",
+     "vscode/package.json",
+     "vscode/prepack.js"
+    ]
+   },
+   "mode_list": [
+    {
+     "id": "single1",
+     "desc": ""
+    },
+    {
+     "id": "cover1",
+     "desc": ""
+    },
+    {
+     "id": "showall1",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

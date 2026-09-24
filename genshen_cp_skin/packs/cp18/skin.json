@@ -1,0 +1,21 @@
+{
+  "name": "原神CP18 · 散兵×万叶",
+  "nameEn": "Genshen CP18 . Scaramouche x Kazuha",
+  "accent": "#3d3a6b",
+  "tagline": "紫蓝与霜白：深靛 × 枫红 × 月白",
+  "description": "原神 CP 壁纸套件18 的 DeepKing 界面皮肤。主色取自插画采样: 散兵的深靛紫发与万叶的霜白, 点缀万叶的枫红挑染与朱红腰饰; 亮色为月白宣纸, 夜景为深靛夜色。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP18",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "散兵",
+    "万叶",
+    "壁纸"
+  ]
+}

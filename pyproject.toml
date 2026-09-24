@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genshen-cp-skin"
+version = "1.0.0"
+description = "原神 CP 壁纸套件合集（24 套）：每套的源图与自带引擎都在包内，离线可用；壁纸 / IDE 扩展 / 桌宠 / DeepKing 一键安装"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "WPH666-py" }]
+keywords = [
+  "genshin", "genshin-impact", "原神", "cp", "wallpaper", "壁纸", "skin", "皮肤",
+  "vscode", "trae", "codex", "pycharm", "desktop-pet", "桌宠", "deepking",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Win32 (MS Windows)",
+  "Environment :: X11 Applications",
+  "Environment :: MacOS X",
+  "Topic :: Desktop Environment",
+  "Topic :: Multimedia :: Graphics",
+  "Natural Language :: Chinese (Simplified)",
+]
+
+[project.urls]
+Homepage = "https://github.com/WPH666-py/Genshen-CP-Skin"
+Source = "https://github.com/WPH666-py/Genshen-CP-Skin"
+Repository = "https://github.com/WPH666-py/Genshen-CP-Skin"
+
+[project.optional-dependencies]
+dev = ["build>=1.0", "twine>=4.0"]
+
+[project.scripts]
+gc = "genshen_cp_skin.cli:main"
+
+[tool.setuptools]
+# 只把 genshen_cp_skin 本身当包。
+# packs/ 里是 24 套各自自带的引擎源码（含 __init__.py），但它们是**素材**：
+# 用法是铺到 ~/.genshen-cp-skin/ 再让用户自己的解释器去跑，
+# 绝不能被 setuptools 当子包编译（否则 wheel 里会塞进几百个 __pycache__/*.pyc）。
+packages = ["genshen_cp_skin"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+# packs/ 最深是 packs/cpNN/src/<pkg>/engine/assets/<file>（5 层），通配到 6 级。
+genshen_cp_skin = [
+  "catalog.json",
+  "packs/*/*",
+  "packs/*/*/*",
+  "packs/*/*/*/*",
+  "packs/*/*/*/*/*",
+  "packs/*/*/*/*/*/*",
+]
+
+[tool.setuptools.exclude-package-data]
+genshen_cp_skin = ["**/__pycache__/*", "**/*.pyc", "**/*.pyo"]

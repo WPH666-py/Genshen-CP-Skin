@@ -1,0 +1,19 @@
+{
+  "name": "原神CP11 · 胡桃×香菱",
+  "nameEn": "Genshen CP11 . Hu Tao x Xiangling",
+  "accent": "#b8352f",
+  "tagline": "锅巴与往生堂：胡桃红 × 暖橙 × 栗棕",
+  "description": "原神 CP 壁纸套件11 的 DeepKing 界面皮肤。主色取自插画采样: 胡桃的赤红与香菱的暖橙, 搭配灯笼夜市的栗棕与深绯; 亮色为暖宣纸白, 夜景为深栗夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP11",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "胡桃",
+    "香菱",
+    "壁纸"
+  ]
+}

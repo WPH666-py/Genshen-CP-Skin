@@ -1,0 +1,70 @@
+/**
+ * 原神CP10 · 雷电影×八重神子 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp10 deepking --check
+ *
+ * 主色取自插画采样: 雷电影的紫电与八重神子的樱粉, 搭配稻妻天青与樱枝白。
+ */
+
+:root {
+  /* 亮色 · 樱纸冷白(取自樱枝与天青那张) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdf9fb;
+  --bg-layer-1: #fdf9fb;
+  --bg-layer-2: #f3edf7;
+  --bg-layer-3: #e4d9ee;
+
+  /* 文字: 主、次、弱 —— 墨紫 */
+  --label-primary: #241a2c;
+  --label-secondary: #514060;
+  --label-tertiary: #816f90;
+
+  /* 品牌强调色: 雷电影的紫电 */
+  --brand-primary: #8a5fb0;
+  --accent: #8a5fb0;
+  --primary: #8a5fb0;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f3e4ec;
+  --interactive-bg-active: #e6d0e0;
+
+  /* 边框 */
+  --border-l1: #eaddf0;
+  --border-l2: #d6c3e2;
+  --border: #d6c3e2;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自第三张的黑底紫雷): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #1a1420;
+  --duskcolor-bglayer2: #251c2e;
+  --duskcolor-bglayer3: #33263f;
+
+  --duskcolor-labelprimary: #eee8f2;
+  --duskcolor-labelsecondary: #c0b0cc;
+  --duskcolor-labeltertiary: #90809e;
+
+  /* 夜间强调色: 紫电提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #b184d4;
+
+  --duskcolor-hoversolid: #33263f;
+  --duskcolor-activebg: #433352;
+
+  --duskcolor-borderl1: #342844;
+  --duskcolor-borderl2: #473859;
+
+  --duskcolor-warnbg: #3a2f14;
+  --duskcolor-warntext: #ecd39a;
+}

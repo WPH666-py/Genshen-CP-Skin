@@ -1,0 +1,70 @@
+/**
+ * 原神CP19 · 空×荧 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp19 deepking --check
+ *
+ * 主色取自插画采样: 双子共有的暖金发色, 搭配星海深蓝与林间青绿。
+ */
+
+:root {
+  /* 亮色 · 暖白晨光(取自窗边那张的日光) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdfaf5;
+  --bg-layer-1: #fdfaf5;
+  --bg-layer-2: #f3f0e9;
+  --bg-layer-3: #e4dfd4;
+
+  /* 文字: 主、次、弱 —— 深褐墨 */
+  --label-primary: #262232;
+  --label-secondary: #4f4a5e;
+  --label-tertiary: #837d90;
+
+  /* 品牌强调色: 双子的暖金 */
+  --brand-primary: #c9a44a;
+  --accent: #c9a44a;
+  --primary: #c9a44a;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f4ead6;
+  --interactive-bg-active: #e9dab8;
+
+  /* 边框 */
+  --border-l1: #ece5d6;
+  --border-l2: #d8cdb5;
+  --border: #d8cdb5;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自星海那张的深蓝): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #121a30;
+  --duskcolor-bglayer2: #1a2540;
+  --duskcolor-bglayer3: #253253;
+
+  --duskcolor-labelprimary: #e8ecf6;
+  --duskcolor-labelsecondary: #b2bcd4;
+  --duskcolor-labeltertiary: #808ba6;
+
+  /* 夜间强调色: 暖金提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #e0c069;
+
+  --duskcolor-hoversolid: #253253;
+  --duskcolor-activebg: #33426b;
+
+  --duskcolor-borderl1: #26314e;
+  --duskcolor-borderl2: #384569;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

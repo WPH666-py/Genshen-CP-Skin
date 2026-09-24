@@ -1,0 +1,108 @@
+{
+  "name": "genshen-skin-cp9",
+  "displayName": "原神CP9 — 神里绫华×宵宫",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP9.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp9.openGallery",
+        "title": "原神CP9: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp9.set1",
+        "title": "原神CP9: 第1张 · 湖畔"
+      },
+      {
+        "command": "genshencp9.set2",
+        "title": "原神CP9: 第2张 · 石阶"
+      },
+      {
+        "command": "genshencp9.setCard",
+        "title": "原神CP9: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp9.setCover",
+        "title": "原神CP9: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp9.setShowall",
+        "title": "原神CP9: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp9.setRandom",
+        "title": "原神CP9: 随机换一张"
+      },
+      {
+        "command": "genshencp9.openSwitcher",
+        "title": "原神CP9: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp9.startPet",
+        "title": "原神CP9: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp9.generateAll",
+        "title": "原神CP9: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp9.showInfo",
+        "title": "原神CP9: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp9",
+          "title": "原神CP9",
+          "icon": "media/genshencp9.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp9": [
+        {
+          "id": "genshencp9.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp9.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp9.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp9 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

@@ -1,0 +1,70 @@
+/**
+ * 原神CP22 · 荧×达达利亚 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp22 deepking --check
+ *
+ * 主色取自插画采样: 蓝玫瑰的矢车菊蓝, 搭配婚纱米白与紫藤淡紫。
+ */
+
+:root {
+  /* 亮色 · 婚纱米白(取自插画大面积的白纱与柔光) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdfbfa;
+  --bg-layer-1: #fdfbfa;
+  --bg-layer-2: #f3eef0;
+  --bg-layer-3: #e4dcdf;
+
+  /* 文字: 主、次、弱 —— 深紫墨 */
+  --label-primary: #2a2130;
+  --label-secondary: #524660;
+  --label-tertiary: #857a92;
+
+  /* 品牌强调色: 蓝玫瑰的矢车菊蓝 */
+  --brand-primary: #5c78b0;
+  --accent: #5c78b0;
+  --primary: #5c78b0;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #e2e6f2;
+  --interactive-bg-active: #c9d3ea;
+
+  /* 边框 */
+  --border-l1: #e6e0ea;
+  --border-l2: #cdc4d4;
+  --border: #cdc4d4;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自深紫夜色): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #1a1524;
+  --duskcolor-bglayer2: #241d31;
+  --duskcolor-bglayer3: #312843;
+
+  --duskcolor-labelprimary: #ece7f2;
+  --duskcolor-labelsecondary: #b8afc8;
+  --duskcolor-labeltertiary: #877d99;
+
+  /* 夜间强调色: 矢车菊蓝提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #7d9ad4;
+
+  --duskcolor-hoversolid: #312843;
+  --duskcolor-activebg: #423758;
+
+  --duskcolor-borderl1: #302741;
+  --duskcolor-borderl2: #453a58;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

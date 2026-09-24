@@ -1,0 +1,70 @@
+/**
+ * 原神CP16 · 温迪×芭芭拉 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp16 deepking --check
+ *
+ * 主色取自插画采样: 芭芭拉的暖金与温迪的薄荷绿, 搭配晴空天青与深蓝。
+ */
+
+:root {
+  /* 亮色 · 晴空米白(取自背景的蓝天白云) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdfbf6;
+  --bg-layer-1: #fdfbf6;
+  --bg-layer-2: #eef4f8;
+  --bg-layer-3: #dbe8f1;
+
+  /* 文字: 主、次、弱 —— 深蓝墨 */
+  --label-primary: #1f2b3d;
+  --label-secondary: #48586e;
+  --label-tertiary: #7c8b9e;
+
+  /* 品牌强调色: 芭芭拉的暖金 */
+  --brand-primary: #c9a227;
+  --accent: #c9a227;
+  --primary: #c9a227;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f5ebd2;
+  --interactive-bg-active: #ebdcb0;
+
+  /* 边框 */
+  --border-l1: #ece2cd;
+  --border-l2: #d8c9a8;
+  --border: #d8c9a8;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自深蓝夜空与温迪的墨绿): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #151e2b;
+  --duskcolor-bglayer2: #1e2a3a;
+  --duskcolor-bglayer3: #2a3a4e;
+
+  --duskcolor-labelprimary: #e9eef5;
+  --duskcolor-labelsecondary: #b4c1d1;
+  --duskcolor-labeltertiary: #8291a3;
+
+  /* 夜间强调色: 暖金提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #e0bc4a;
+
+  --duskcolor-hoversolid: #2a3a4e;
+  --duskcolor-activebg: #384c64;
+
+  --duskcolor-borderl1: #2b3a4c;
+  --duskcolor-borderl2: #3d5068;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #ecd9a0;
+}

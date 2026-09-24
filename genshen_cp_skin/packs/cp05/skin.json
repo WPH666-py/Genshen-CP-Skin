@@ -1,0 +1,19 @@
+{
+  "name": "原神CP5 · 桑多涅×哥伦比娅",
+  "nameEn": "Genshen CP5 . Sandrone x Columbina",
+  "accent": "#a8326e",
+  "tagline": "夜与晨的双色主题：紫红 × 金发蓝眼 × 夜街暖黄",
+  "description": "原神 CP 壁纸套件5 的 DeepKing 界面皮肤。主色取自插画里桑多涅的紫红发色与哥伦比娅的金发蓝眼，搭配夜街紫光与暖黄街灯；亮色为晨光象牙白，夜景为夜紫墨黑。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP5",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "桑多涅",
+    "哥伦比娅",
+    "壁纸"
+  ]
+}

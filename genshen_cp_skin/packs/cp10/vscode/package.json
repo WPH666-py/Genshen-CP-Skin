@@ -1,0 +1,112 @@
+{
+  "name": "genshen-skin-cp10",
+  "displayName": "原神CP10 — 雷电影×八重神子",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP10.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp10.openGallery",
+        "title": "原神CP10: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp10.set1",
+        "title": "原神CP10: 第1张 · 鸟居"
+      },
+      {
+        "command": "genshencp10.set2",
+        "title": "原神CP10: 第2张 · 沙发"
+      },
+      {
+        "command": "genshencp10.set3",
+        "title": "原神CP10: 第3张 · 雷鸣"
+      },
+      {
+        "command": "genshencp10.setCard",
+        "title": "原神CP10: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp10.setCover",
+        "title": "原神CP10: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp10.setShowall",
+        "title": "原神CP10: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp10.setRandom",
+        "title": "原神CP10: 随机换一张"
+      },
+      {
+        "command": "genshencp10.openSwitcher",
+        "title": "原神CP10: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp10.startPet",
+        "title": "原神CP10: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp10.generateAll",
+        "title": "原神CP10: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp10.showInfo",
+        "title": "原神CP10: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp10",
+          "title": "原神CP10",
+          "icon": "media/genshencp10.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp10": [
+        {
+          "id": "genshencp10.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp10.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp10.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp10 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

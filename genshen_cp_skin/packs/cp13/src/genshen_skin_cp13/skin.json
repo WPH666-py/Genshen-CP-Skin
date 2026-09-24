@@ -1,0 +1,19 @@
+{
+  "name": "原神CP13 · 钟离×凝光",
+  "nameEn": "Genshen CP13 . Zhongli x Ningguang",
+  "accent": "#c9a43f",
+  "tagline": "秋日璃月港：璃月金 × 琥珀褐 × 秋枫橙",
+  "description": "原神 CP 壁纸套件13 的 DeepKing 界面皮肤。主色取自插画采样: 钟离的琥珀褐与凝光的璃月金, 搭配秋枫的橙与远山的灰蓝; 亮色为暖宣纸金, 夜景为深褐夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP13",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "钟离",
+    "凝光",
+    "壁纸"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "原神CP19 · 空×荧",
+  "nameEn": "Genshen CP19 . Aether x Lumine",
+  "accent": "#c9a44a",
+  "tagline": "双子同行：暖金 × 星夜蓝 × 林间青",
+  "description": "原神 CP 壁纸套件19 的 DeepKing 界面皮肤。主色取自插画采样: 双子共有的暖金发色, 搭配星海的深蓝与林间的青绿; 亮色为暖白晨光, 夜景为深海星夜。",
+  "version": "0.1.0",
+  "license": {
+    "text": "MIT"
+  },
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP19",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "空",
+    "荧",
+    "壁纸"
+  ]
+}

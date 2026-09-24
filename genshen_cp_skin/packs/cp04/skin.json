@@ -1,0 +1,19 @@
+{
+  "name": "原神CP4 · 柯莱×安柏",
+  "nameEn": "Genshin CP4 · Collei x Amber",
+  "accent": "#4f9e4a",
+  "tagline": "森林同人主题：草绿 × 琥珀 × 暖阳黄",
+  "description": "原神 CP 壁纸套件4 的 DeepKing 界面皮肤。主色取自插画里柯莱的草绿发色与安柏的琥珀棕红，搭配林间暖阳黄；亮色为晨光米白，夜景为深林墨绿。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP4",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "柯莱",
+    "安柏",
+    "壁纸"
+  ]
+}

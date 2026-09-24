@@ -1,0 +1,19 @@
+{
+  "name": "原神CP10 · 雷电影×八重神子",
+  "nameEn": "Genshen CP10 . Raiden Shogun x Yae Miko",
+  "accent": "#8a5fb0",
+  "tagline": "鸣神双人主题：紫电 × 樱粉 × 天青",
+  "description": "原神 CP 壁纸套件10 的 DeepKing 界面皮肤。主色取自插画采样: 雷电影的紫电与八重神子的樱粉, 搭配稻妻的天青与樱枝白; 亮色为樱纸冷白, 夜景为墨紫夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP10",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "雷电影",
+    "八重神子",
+    "壁纸"
+  ]
+}

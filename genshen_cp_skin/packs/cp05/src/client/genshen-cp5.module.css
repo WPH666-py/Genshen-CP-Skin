@@ -1,0 +1,70 @@
+/**
+ * 原神CP5 · 桑多涅×哥伦比娅 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp5 deepking --check
+ *
+ * 主色取自插画: 桑多涅的紫红发色、哥伦比娅的金发蓝眼, 以及夜街的紫光与暖黄街灯。
+ */
+
+:root {
+  /* 亮色 · 晨光象牙(取自学园场景的日光) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdfbf7;
+  --bg-layer-1: #fdfbf7;
+  --bg-layer-2: #f4eef2;
+  --bg-layer-3: #e8dde6;
+
+  /* 文字: 主、次、弱 —— 深紫墨 */
+  --label-primary: #241726;
+  --label-secondary: #5b4560;
+  --label-tertiary: #8d7691;
+
+  /* 品牌强调色: 桑多涅的紫红 */
+  --brand-primary: #a8326e;
+  --accent: #a8326e;
+  --primary: #a8326e;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f0e2ec;
+  --interactive-bg-active: #e3cddd;
+
+  /* 边框 */
+  --border-l1: #eadbe6;
+  --border-l2: #dbc6d8;
+  --border: #dbc6d8;
+
+  /* 状态色 */
+  --system-warn-bg: #fff6dd;
+  --system-warn-text: #8a6200;
+}
+
+/* 夜景配色(取自夜街的紫光与墨黑): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #17101c;
+  --duskcolor-bglayer2: #221728;
+  --duskcolor-bglayer3: #2e1f36;
+
+  --duskcolor-labelprimary: #efe6f2;
+  --duskcolor-labelsecondary: #c2abc9;
+  --duskcolor-labeltertiary: #907d98;
+
+  /* 夜间强调色: 紫红提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #d1498c;
+
+  --duskcolor-hoversolid: #2e1f36;
+  --duskcolor-activebg: #3d2a47;
+
+  --duskcolor-borderl1: #33233b;
+  --duskcolor-borderl2: #453050;
+
+  --duskcolor-warnbg: #3a3118;
+  --duskcolor-warntext: #e8d9a0;
+}

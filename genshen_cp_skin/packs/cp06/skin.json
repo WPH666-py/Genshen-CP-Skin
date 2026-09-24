@@ -1,0 +1,20 @@
+{
+  "name": "原神CP6 · 玛拉妮×基尼奇×卡其娜",
+  "nameEn": "Genshen CP6 . Mualani x Kinich x Kachina",
+  "accent": "#2e9ec4",
+  "tagline": "纳塔暖色主题：碧蓝 × 暖橙 × 沙金",
+  "description": "原神 CP 壁纸套件6 的 DeepKing 界面皮肤。主色取自插画采样: 玛拉妮的碧蓝发色与基尼奇的红棕, 搭配纳塔夕阳的暖橙与沙金; 亮色为暖阳米白, 夜景为深靛墨黑。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP6",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "玛拉妮",
+    "基尼奇",
+    "卡其娜",
+    "壁纸"
+  ]
+}

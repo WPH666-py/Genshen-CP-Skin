@@ -1,0 +1,100 @@
+{
+  "name": "genshen-skin-cp14",
+  "displayName": "原神CP14 — 神里绫华×优菈×甘雨",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP14.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp14.openGallery",
+        "title": "原神CP14: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp14.setCard",
+        "title": "原神CP14: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp14.setCover",
+        "title": "原神CP14: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp14.setShowall",
+        "title": "原神CP14: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp14.setRandom",
+        "title": "原神CP14: 随机换一种"
+      },
+      {
+        "command": "genshencp14.openSwitcher",
+        "title": "原神CP14: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp14.startPet",
+        "title": "原神CP14: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp14.generateAll",
+        "title": "原神CP14: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp14.showInfo",
+        "title": "原神CP14: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp14",
+          "title": "原神CP14",
+          "icon": "media/genshencp14.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp14": [
+        {
+          "id": "genshencp14.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp14.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp14.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp14 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

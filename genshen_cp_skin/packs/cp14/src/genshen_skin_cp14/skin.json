@@ -1,0 +1,20 @@
+{
+  "name": "原神CP14 · 神里绫华×优菈×甘雨",
+  "nameEn": "Genshen CP14 . Ayaka x Eula x Ganyu",
+  "accent": "#7ba7cc",
+  "tagline": "氷元素学科：冰蓝 × 霜白 × 蓝灰格纹",
+  "description": "原神 CP 壁纸套件14 的 DeepKing 界面皮肤。主色取自插画采样: 三位冰系角色的发色与校服 —— 冰蓝、霜白与蓝灰格纹, 搭配教室的墨绿黑板与木质课桌的暖调; 亮色为霜白晨光, 夜景为深蓝墨夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP14",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "神里绫华",
+    "优菈",
+    "甘雨",
+    "壁纸"
+  ]
+}

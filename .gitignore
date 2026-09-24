@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# 打包/测试产物
+*.whl
+*.tar.gz
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# 开发期从源仓库同步进来的临时目录（<包名>-<版本>/）
+genshen_cp_skin-*/
+genshen-cp-skin-*/
+
+# 编辑器 / 系统
+.vscode-test/
+node_modules/
+.DS_Store
+Thumbs.db

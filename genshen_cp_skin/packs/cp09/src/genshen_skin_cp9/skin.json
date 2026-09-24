@@ -1,0 +1,19 @@
+{
+  "name": "原神CP9 · 神里绫华×宵宫",
+  "nameEn": "Genshen CP9 . Kamisato Ayaka x Yoimiya",
+  "accent": "#e8734a",
+  "tagline": "稻妻双人主题：宵宫橙金 × 绫华青蓝 × 樱粉",
+  "description": "原神 CP 壁纸套件9 的 DeepKing 界面皮肤。主色取自插画采样: 宵宫的橙金发色与绫华的青蓝墨色, 搭配满屏的樱粉与紫藤淡紫; 亮色为樱纸暖白, 夜景为深藤紫。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP9",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "神里绫华",
+    "宵宫",
+    "壁纸"
+  ]
+}
